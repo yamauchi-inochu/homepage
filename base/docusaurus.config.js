@@ -71,12 +71,6 @@ const config = {
         },
         items: [
           {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: 'Profile',
-          },
-          {
             href: 'https://github.com/yamauchi-inochu',
             label: 'GitHub',
             position: 'right',
