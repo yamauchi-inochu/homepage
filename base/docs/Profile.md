@@ -9,7 +9,9 @@ sidebar_position: 1
 
 ## Affiliation
 - 立命館大学衣笠総合研究機構アート・リサーチセンター・ 特別招聘研究教員（准教授）
-	- / Art Research Center, Ritsumeikan University / Research Associate Professor
+	- Art Research Center, Ritsumeikan University / Research Associate Professor
+- 東京大学空間情報科学研究センター・客員研究員
+	-  Center for Spatial Information Science, the University of Tokyo / Visiting Researcher	
 
 
 ## Research History
