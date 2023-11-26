@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # News
 
-山内が取り組むの研究などの情報を以下と、[X](https://twitter.com/yamah_geo)にて、不定期に発信しています。
+山内が取り組むの研究などの情報を不定期に発信しています。
 
 **Menu**
 
@@ -16,8 +16,6 @@ sidebar_position: 2
 ### CSIS Daysへの参加
 
 <p><img alt={"img"} src={require("!/Users/hiroyukiyamauchi/Documents/GitHub/my-webpage/homepage/base/node_modules/url-loader/dist/cjs.js?limit=10000&name=assets/images/[name]-[contenthash].[ext]&fallback=/Users/hiroyukiyamauchi/Documents/GitHub/my-webpage/homepage/base/node_modules/file-loader/dist/cjs.js!./img_news/20231125.JPEG").default} width="500" height="auto" /></p>
-
-<div><img src="./img_news/20231125.JPEG" alt="test" width="500" height="auto" /></div>
 
 ### 石狩川流域でのフィールドワーク
 
