@@ -1,10 +1,11 @@
 ---
-sidebar_position: 3
+sidebar_position: 2
 ---
 
 # Achievements
 
 ## Peer-Reviewed Journals
+- Jiali Song, Hiroyuki Yamauchi, Takashi Oguchi, Takuro Ogura, Yosuke Nakamura, Jipeng Wang (2023) Effects of web geographic information system (GIS) technology and curriculum approaches on education for disaster risk reduction. Natural Hazards and Earth System Sciences, 23(11), 3617-3634.
 - **山内啓之**, 小倉拓郎, 中村洋介, 宋 佳麗, 小口 高（2023）地形教育のための空撮全天球画像を用いた教材の開発と評価.　新地理 71(2), 1-11.
 - **山内啓之**, 鶴岡謙一, 小倉拓郎, 田村裕彦, 早川裕弌, 飯塚浩太郎, 小口 高（2022）三次元地理空間情報とVR技術を用いた遺構の散策アプリの試作と評価 －地理教育への応用に向けて－.　E-journal GEO 17(1) 169-179.
 - Jiali Song, **Hiroyuki Yamauchi**, Takashi Oguchi, Takuro Ogura (2022) Application of web hazard maps to high school education for disaster risk reduction. 
