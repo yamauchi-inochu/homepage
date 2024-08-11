@@ -1,0 +1,1191 @@
+
+<!DOCTYPE HTML>
+<html lang="ja" >
+    <head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-CS6VQ7FG4S"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-CS6VQ7FG4S');
+</script>
+
+        <meta charset="UTF-8">
+        <title>QGIS入門 · test</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="HonKit 3.7.1">
+        <meta name="author" content="test">
+        
+        
+    
+    <link rel="stylesheet" href="../../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+        <link rel="stylesheet" href="../../../styles/website.css">
+        
+    
+
+        
+    
+    
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="tasks/t_qgis_entry.html" />
+    
+    
+    <link rel="prev" href="./" />
+    
+
+    <style>
+    @media only screen and (max-width: 640px) {
+        .book-header .hidden-mobile {
+            display: none;
+        }
+    }
+    </style>
+    <script>
+        window["gitbook-plugin-github-buttons"] = {"buttons":[{"user":"yamauchi-inochu","repo":"learning","type":"star","size":"small","count":true}]};
+    </script>
+
+    
+        <link rel="shortcut icon" href='../../../img/favicon.ico' type="image/x-icon">
+    
+    
+        <link rel="bookmark" href='../../../img/favicon.ico' type="image/x-icon">
+    
+    
+        <link rel="apple-touch-icon" href='../../../img/apple-touch-icon.png'>
+    
+    
+        
+        <link rel="apple-touch-icon" sizes="120x120" href="../../../img/favicon.ico">
+        
+        <link rel="apple-touch-icon" sizes="180x180" href="../../../img/favicon.ico">
+        
+    
+
+    </head>
+    <body>
+        
+<div class="book honkit-cloak">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="検索ワードを入力" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../../">
+            
+                <a href="../../../">
+            
+                    
+                    The Yamauchi Lab
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../../../about.html">
+            
+                <a href="../../../about.html">
+            
+                    
+                    About
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    Materials
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../../ArcGISPro/">
+            
+                <a href="../../ArcGISPro/">
+            
+                    
+                    ArcGIS Pro
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1.1" data-path="../../ArcGISPro/1/1.html">
+            
+                <a href="../../ArcGISPro/1/1.html">
+            
+                    
+                    ArcGIS Proビギナーズマニュアル
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.1.2" data-path="../../ArcGISPro/2/2.html">
+            
+                <a href="../../ArcGISPro/2/2.html">
+            
+                    
+                    GISデータの取得
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.1.3" data-path="../../ArcGISPro/3/3.html">
+            
+                <a href="../../ArcGISPro/3/3.html">
+            
+                    
+                    空間データの座標変換
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.1.4" data-path="../../ArcGISPro/4/4.html">
+            
+                <a href="../../ArcGISPro/4/4.html">
+            
+                    
+                    ジオリファレンスとジオコーディング
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.1.5" data-path="../../ArcGISPro/5/5.html">
+            
+                <a href="../../ArcGISPro/5/5.html">
+            
+                    
+                    GISデータの作成
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.1.6" data-path="../../ArcGISPro/6/6.html">
+            
+                <a href="../../ArcGISPro/6/6.html">
+            
+                    
+                    基本的な空間解析
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.1.7" data-path="../../ArcGISPro/7/7.html">
+            
+                <a href="../../ArcGISPro/7/7.html">
+            
+                    
+                    領域分析と空間検索
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.1.8" data-path="../../ArcGISPro/8/8.html">
+            
+                <a href="../../ArcGISPro/8/8.html">
+            
+                    
+                    ポイントデータの集計とテーブル結合
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.1.9" data-path="../../ArcGISPro/9/9.html">
+            
+                <a href="../../ArcGISPro/9/9.html">
+            
+                    
+                    標高データの可視化と分析
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../../ArcGISOnline/">
+            
+                <a href="../../ArcGISOnline/">
+            
+                    
+                    ArcGIS Online
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.2.1" data-path="../../ArcGISOnline/1/ao1.html">
+            
+                <a href="../../ArcGISOnline/1/ao1.html">
+            
+                    
+                    地図の作成とオンライン公開
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    QGIS:ja
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.3.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Day 1
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter active" data-level="1.3.3.1.1" data-path="qgis.html">
+            
+                <a href="qgis.html">
+            
+                    
+                    QGIS入門
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3.1.2" data-path="tasks/t_qgis_entry.html">
+            
+                <a href="tasks/t_qgis_entry.html">
+            
+                    
+                    課題①
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3.1.3" data-path="07.html">
+            
+                <a href="07.html">
+            
+                    
+                    データダウンロード
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.3.1.3.1" data-path="tasks/t_07.html">
+            
+                <a href="tasks/t_07.html">
+            
+                    
+                    課題②
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3.1.4" data-path="12.html">
+            
+                <a href="12.html">
+            
+                    
+                    ネットワーク分析
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3.1.5" data-path="tasks/t_12.html">
+            
+                <a href="tasks/t_12.html">
+            
+                    
+                    課題③
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3.2" data-path="../day2/">
+            
+                <a href="../day2/">
+            
+                    
+                    Day 2
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.3.2.1" data-path="../day2/08_1.html">
+            
+                <a href="../day2/08_1.html">
+            
+                    
+                    空間座標系の変換
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3.2.2" data-path="../day2/tasks/t_08.html">
+            
+                <a href="../day2/tasks/t_08.html">
+            
+                    
+                    課題①
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3.2.3" data-path="../day2/11.html">
+            
+                <a href="../day2/11.html">
+            
+                    
+                    基本的な空間解析
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3.2.4" data-path="../day2/tasks/t_11.html">
+            
+                <a href="../day2/tasks/t_11.html">
+            
+                    
+                    課題②〜③
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3.2.5" data-path="../day2/13.html">
+            
+                <a href="../day2/13.html">
+            
+                    
+                    領域分析（バッファ）
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3.2.6" data-path="../day2/tasks/t_13.html">
+            
+                <a href="../day2/tasks/t_13.html">
+            
+                    
+                    課題④
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3.2.7" data-path="../day2/14.html">
+            
+                <a href="../day2/14.html">
+            
+                    
+                    点データの分析
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3.2.8" data-path="../day2/tasks/t_14.html">
+            
+                <a href="../day2/tasks/t_14.html">
+            
+                    
+                    課題⑤
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3.3" data-path="../day3/">
+            
+                <a href="../day3/">
+            
+                    
+                    Day 3
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.3.3.1" data-path="../day3/10a.html">
+            
+                <a href="../day3/10a.html">
+            
+                    
+                    空間データの作成
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3.3.2" data-path="../day3/tasks/t_10.html">
+            
+                <a href="../day3/tasks/t_10.html">
+            
+                    
+                    課題①
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3.3.3" data-path="../day3/15.html">
+            
+                <a href="../day3/15.html">
+            
+                    
+                    地形情報の可視化
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3.3.4" data-path="../day3/tasks/t_15.html">
+            
+                <a href="../day3/tasks/t_15.html">
+            
+                    
+                    課題②
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3.3.5" data-path="../day3/15_1.html">
+            
+                <a href="../day3/15_1.html">
+            
+                    
+                    流域解析
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3.3.6" data-path="../day3/tasks/t_15_1.html">
+            
+                <a href="../day3/tasks/t_15_1.html">
+            
+                    
+                    課題③
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3.3.7" data-path="../day3/18.html">
+            
+                <a href="../day3/18.html">
+            
+                    
+                    空間補間
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3.3.8" data-path="../day3/tasks/t_18.html">
+            
+                <a href="../day3/tasks/t_18.html">
+            
+                    
+                    課題④〜⑤
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="../../3d_scanning/3d_scanning.html">
+            
+                <a href="../../3d_scanning/3d_scanning.html">
+            
+                    
+                    Mobile 3D scanning
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5" data-path="../../leaflet_ja/leaflet_ja.html">
+            
+                <a href="../../leaflet_ja/leaflet_ja.html">
+            
+                    
+                    Leaflet for beginners
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../../../works.html">
+            
+                <a href="../../../works.html">
+            
+                    
+                    Works
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../../../notes/readme.html">
+            
+                <a href="../../../notes/readme.html">
+            
+                    
+                    Notes
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="../../../contact.html">
+            
+                <a href="../../../contact.html">
+            
+                    
+                    Contact
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://github.com/honkit/honkit" target="blank" class="gitbook-link">
+            HonKitで公開 
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../../.." >QGIS入門</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="qgisビギナーズマニュアル">QGISビギナーズマニュアル</h1>
+<p>　本教材は、QGIS入門者向けの実習用教材です。QGISを実際に操作しながら、空間データの表示、シンボルの変更、地図のレイアウト等を学習することができます。</p>
+<h2 id="menu"><strong>Menu</strong></h2>
+<ul>
+<li><a href="#qgisとは？">QGISとは？</a></li>
+<li><a href="#起動">起動</a></li>
+<li><a href="#ウインドウ">ウインドウ</a></li>
+<li><a href="#各種ボタン">各種ボタン</a></li>
+<li><a href="#データの読み込み">データの読み込み</a></li>
+<li><a href="#機能説明">機能説明</a></li>
+<li><a href="#属性テーブル">属性テーブル</a></li>
+<li><a href="#プロパティ">プロパティ</a></li>
+<li><a href="#地図タイルの読み込み">地図タイルの読み込み</a></li>
+<li><a href="#地図のレイアウト">地図のレイアウト</a></li>
+<li><a href="#作業ファイルの保存">作業ファイルの保存</a></li>
+<li><a href="#プラグイン">プラグイン</a></li>
+<li><a href="#データの保存形式">データの保存形式</a></li>
+</ul>
+<p><strong>実習用データ</strong></p>
+<p>実習をはじめる前に、<a href="https://github.com/gis-oer/datasets/raw/master/tokyo.zip" target="_blank">tokyo.zip</a>をダウンロードしてください。</p>
+<h2 id="qgisとは？">QGISとは？</h2>
+<p>　QGISは、無償で利用できるオープンソース（GNU General Public License v2で提供）のGISです。Windows,Mac,Linux,Unix, Androidなど様々な環境で動作します。様々なプラグインや、GRASSやPostGISなど他のオープンソースGISと連携して使用することで、多種類の分析が可能です。GISの基本操作に必要な機能を網羅しているだけでなく、Web上に多数のマニュアルがアップロードされているため、GISの学習がしやすいソフトウェアです。  </p>
+<blockquote>
+<p><a href="http://qgis.org/ja/site/about/index.html" target="_blank">http://qgis.org/ja/site/about/index.html</a> を参考に作成</p>
+</blockquote>
+<p><a href="QGIS.md#Menu">▲メニューへもどる</a></p>
+<h2 id="起動">起動</h2>
+<p>　デスクトップのQGISアイコンをダブルクリックする。しばらくするとQGISが起動する。
+<img src="pic/Qpic5.png" alt="起動"></p>
+<p>最初にQGIS3を起動した時には、下記の様に古いバージョンのGIS2からの設定を取り込むか聞かれることがある。この演習ではQGIS2とは関係なくQGIS3を利用するため、「QGIS 2の設定をインポートせずクリーンな状態でスタートする」を選択する。この設定は最初の1回のみで済む。
+<img src="pic/first_question.jpg" alt="起動"></p>
+<p><a href="QGIS.md#Menu">▲メニューへもどる</a></p>
+<h2 id="ウインドウ">ウインドウ</h2>
+<p>　QGISを起動すると、下の図のようなウィンドウが表示されます。ウインドウ上のアイコンの配置は自由に変更することができます。アイコンのない箇所（グレーの部分）で右クリックして出てくる「パネル」メニューからパネルを選択することにより、別機能のパネルを呼び出すことができます。アイコンの数は、インストールしているプラグインの数によっても異なります。そのため、インストール直後のQGISと教材の画像が異なっていることを確認してください。
+<img src="pic/Qpic6.png" alt="ウインドウ"></p>
+<p><a href="QGIS.md#Menu">▲メニューへもどる</a></p>
+<h2 id="各種ボタン">各種ボタン</h2>
+<p>　以下では、QGISで主に使用するボタンについて解説しています。</p>
+<p><img src="pic/Qpic7.png" alt="ボタンA"></p>
+<ol>
+<li>QGISファイルを保存</li>
+<li>名前をつけてQGISファイルを保存</li>
+<li>地図移動</li>
+<li>地図の拡大と縮小</li>
+<li>選択領域にズーム</li>
+<li>動作の前後移動</li>
+<li>地物情報の表示</li>
+<li>選択と選択取り消し</li>
+<li>長さ、面積計測（手動）</li>
+<li>レイヤ編集</li>
+<li>レイヤの読み込み</li>
+</ol>
+<p>また、ウィンドウの下部にはカーソルの座標や縮尺、拡大、回転、座標系などを確認できるツールバーがあります。</p>
+<p><img src="pic/Qpic8.png" alt="ボタンB"></p>
+<p><a href="QGIS.md#Menu">▲メニューへもどる</a></p>
+<h2 id="データの読み込み">データの読み込み</h2>
+<p>　GISでは、位置情報を保持するベクトルデータとラスタデータを用いて、空間分析等を行います。各データの特徴は、<a href="../00/00.md">GISの基本概念_ベクトルデータとラスタデータ</a>を参照してください。以下では、代表的なデータ形式を取り上げ、それらをQGISで読み込む手法について解説します。教材中に記載されている使用データ(<a href="https://github.com/gis-oer/datasets/raw/master/tokyo.zip" target="_blank">tokyo.zip</a>)を用意してください。そして、tokyo.zipファイルをダウンロード後に解凍してください）。</p>
+<h3 id="ベクトルデータ読み込み">ベクトルデータ読み込み</h3>
+<p>以下では、GISで扱う代表的なベクトルデータ形式のシェープファイルを読み込む手法について解説する。シェープファイルの特徴は、<a href="../00/00.md">GISの基本概念_シェープファイル</a>を参照してください。</p>
+<p><code>データソースマネージャーを開く</code>のアイコンをクリックし、<code>ベクタ</code>のタブに切り替える。エンコーディングをUTF-8とし、ソースから、cvs_jgd2011_9.shpを指定する。<code>追加</code>をクリックするとデータが表示される。
+<img src="pic/Qpic9.png" alt="ベクタ"></p>
+<p><img src="pic/Qpic10.png" alt="ベクタ"></p>
+<p>上記のように、cvs_jgd2011_9.shpを読み込むと、東京23区内のコンビニが表示される（ポイントデータ）。ベクトルデータには、ポイント、ライン、ポリゴンのデータ形式がある。ラインとポリゴンも同様の手法で読み込むことができる。</p>
+<h4 id="ライン">ライン</h4>
+<p>東京周辺の河川(river_9kei.shp)を表示する。
+<img src="pic/Qpic11.png" alt="ベクタ"></p>
+<h4 id="ポリゴン">ポリゴン</h4>
+<p>東京23区のエリア(tokyo_23ku_jgd2011_9.shp)を表示する。
+<img src="pic/Qpic12.png" alt="ベクタ"></p>
+<p>【註】ここまで続けてベクトルデータを読み込むと、ポイントの上にラインが被さり、さらにポリゴンのデータが被さって表示されます。これはレイヤーで後から読み込んだものが、一番上に表示されるためです。3つのデータがうまく表示されるように、レイヤーパネルでレイヤー名をドラッグしてレイヤー順番を変えます。委細については、後の「レイヤ構造」で説明します。</p>
+<h3 id="ラスタデータの読み込み">ラスタデータの読み込み</h3>
+<p>以下では、GISで扱う代表的なラスタデータ形式のGeotiffを読み込む手法について解説する。<code>データソースマネージャーを開く</code>のアイコンをクリックし、<code>ラスタ</code>のタブに切り替える。ソースから、tokyo_srtm.tifを指定し追加をクリックする。
+<img src="pic/Qpic13.png" alt="ラスタ"></p>
+<p><img src="pic/Qpic14.png" alt="ラスタ"></p>
+<h4 id="テキストデータ読み込み">テキストデータ読み込み</h4>
+<p>以下では、GISで扱う代表的なテキストファイルであるCSV形式のデータを読み込む手法について解説する。<code>データソースマネージャーを開く</code>のアイコンをクリックし、<code>デリミティッドテキスト</code>のタブに切り替える。ファイル名から、post_office.csvを指定する。X,Yフィールドに対応する緯度経度があれば指定し、緯度経度がなければジオメトリなしにチェックをする(ここでは、<code>ジオメトリ定義＞ジオメトリなし</code>にチェックを入れてください。)。
+<img src="pic/Qpic15.png" alt="CSV"></p>
+<p>【註】本実習のCSVファイルはUTF-8エンコーディングで作成されています。GGIS3のデフォルトでのエンコーディング（レイヤ名の横で指定できます）はUTF-8になっていますのでこのままで結構です。ただ、Windowsで作成されるCSVファイルはShift-JIS形式で作成されていることが多いので、その場合はエンコーディング形式を「Shift-JIS」に選択する必要があります。エンコーディングが正しく設定されているかは、サンプルデータの表示が適切になされていることで確認することができます。</p>
+<p><a href="QGIS.md#Menu">▲メニューへもどる</a></p>
+<h2 id="レイヤ構造">レイヤ構造</h2>
+<p>　GISでは、レイヤ構造に従ってデータの切り替えや重ね合わせを行います。以下では、レイヤの切り替え、重ね合わせ、削除の手法を解説します。</p>
+<h3 id="レイヤ表示の切替">レイヤ表示の切替</h3>
+<p>各レイヤの横にあるチェックボックスにチェックをいれると、地図表示画面にレイヤが表示される。
+<img src="pic/Qpic16.png" alt="CSV"></p>
+<h3 id="レイヤの重ね合わせ">レイヤの重ね合わせ</h3>
+<p>レイヤウィンドウでレイヤを上下にずらすと、地図表示画面が連動して切り替わる。
+<img src="pic/Qpic17.png" alt="CSV"></p>
+<h3 id="レイヤの削除">レイヤの削除</h3>
+<p>レイヤウィンドウでレイヤの上で右クリックし、<code>レイヤの削除</code>をクリックする。この処理では、レイヤウィンドウ上からレイヤが消えるのみで、データそのものは削除されていない点に注意する。
+<img src="pic/Qpic18.png" alt="CSV"></p>
+<p><a href="QGIS.md#Menu">▲メニューへもどる</a></p>
+<h2 id="機能説明">機能説明</h2>
+<p>　QGISには、地図のレイアウト、データの作成、分析など様々な機能があります。以下では、QGISの機能について説明しています。</p>
+<p><img src="pic/Qpic19.png" alt="機能説明a">
+プロジェクト：QGIS（.qgs）ファイルの保存や読み込み、地図のレイアウト、エクスポートができる。</p>
+<p>編集：ベクタレイヤの編集ができる。編集状態になると、アクティブになる。</p>
+<p><img src="pic/Qpic20.png" alt="機能説明b">
+ビュー：地図の移動や拡大、縮小など、地図画面の操作ができる。</p>
+<p>レイヤ：ベクタやラスタなどのレイヤが追加できる。</p>
+<p>ポイント、ライン、ポリゴン新規レイヤの作成もできる。</p>
+<p><img src="pic/Qpic21.png" alt="機能説明c">
+設定：オプションから、プロジェクトの設定やスナップオプションが設定できる。</p>
+<p>プラグイン：プラグインの管理とインストールができる。Python入力画面が開ける。</p>
+<p><img src="pic/Qpic22.png" alt="機能説明d">
+ベクタ：バッファやクリップなどベクタに関する処理ができる。</p>
+<p>ラスタ：斜面方位図や陰影図の作成などラスタに関する処理ができる。</p>
+<p><img src="pic/Qpic23.png" alt="機能説明e">
+データベース：PostGISなどのデータベースへの接続やeVisプラグインによる外部ファイルとの連携が可能。</p>
+<p>Web：背景地図の設定やweb地図の書き出しができる（プラグインによる）。</p>
+<p><img src="pic/Qpic24.png" alt="機能説明f">
+プロッセッシング：他のGISソフトウェアと連携して操作ができる（R,GRASS,SAGAなどがQGIS内で処理できる）。</p>
+<p>ヘルプ：QGISのヘルプが確認できる。</p>
+<p><a href="QGIS.md#Menu">▲メニューへもどる</a></p>
+<h2 id="属性テーブル">属性テーブル</h2>
+<p>　ベクトルデータは、複数の属性情報を保持することができます。以下では、QGISで属性情報を参照する手法について、解説しています。</p>
+<p><strong>以下では、cvs_jgd2011_9.shpのみ利用します。不要なレイヤを削除してください。</strong></p>
+<p>データを読み込み、レイヤウィンドウのレイヤの上で右クリックすると、属性テーブルを開くことができる。
+<img src="pic/Qpic25.png" alt="属性テーブルa"></p>
+<p>属性テーブルで選択したものは、地図上で黄色で表示される。選択アイコンで地図上の地物を選択した場合は、その地物に対応する属性テーブルの行が選択される。
+地図上の地物を選択した時に、そのままでは属性テーブルの中で全てのデータが表示され、選択したものがわかりにくい時がある。その時には属性テーブルの下部にあるポップアップメニューから「選択した地物を表示する」を選択し、選択された地物に関する属性だけが表示されるようにすることで見やすくなります。
+なお、ポリゴンによる選択（選択ボタンの右側にある小さな三角を押すとポップアップメニューが表示され、ポリゴン、フリーハンド等が選択できます）は、右クリックで終了し、フリーハンドによる選択は左クリックで終了と、操作性に一貫がなく分かりにくい状態です。</p>
+<p><img src="pic/Qpic26.png" alt="属性テーブルb"></p>
+<p><a href="QGIS.md#Menu">▲メニューへもどる</a></p>
+<h2 id="プロパティ">プロパティ</h2>
+<p>　QGISでは、レイヤごとにレイヤのプロパティから、データの表示情報やスタイルの変更ができます。ポイントでは形や大きさ、ラインでは線の形や太さ、ポリゴンでは塗りつぶしの色等を変更することができます。属性情報に応じて、スタイルを分けることもできます。これは、レイヤの表示が変化するのみの処理で、データそのものの形状は変更されません。</p>
+<p>以下では、レイヤのプロパティについて解説し、ポイントデータのスタイルの変更を行います。</p>
+<p>レイヤウインドウからプロパティを表示したいレイヤを選択し、右クリックからプロパティをクリックする。
+<img src="pic/Qpic27.png" alt="プロパティ"></p>
+<h3 id="ソース">ソース</h3>
+<p>座標系を確認したり、文字コード、表示名の変更がきます。
+<img src="pic/Qpic28.png" alt="一般情報"></p>
+<h3 id="シンボロジー">シンボロジー</h3>
+<p>データのスタイルを整えることができる機能です。データの値に応じて配色やスタイルを変えることができます。分類方法は「単一シンボル」、「分類された」、「段階に分けられた」等があります。</p>
+<p>ここでは、ポイントデータの大きさと色を変更します。<code>単一シンボル</code>を選択し、色と大きさを指定する。指定できた状態で<code>OK</code>をクリックすると変更が適用される。
+<img src="pic/Qpic29.png" alt="スタイルa"></p>
+<p>以下のように、形を変更することもできる。
+<img src="pic/Qpic30.png" alt="スタイルb"></p>
+<p>属性テーブルの値によって、大きさと色を変更するには、シンボロジーの画面の一番上にあるポップアップメニューにおいて、<code>分類された</code>を選択し、分類したいフィールドを選択する。</p>
+<p>ここではコンビニごとに色を変更するため、「カラム」フィールドのポップアップメニューから<code>name_en</code>を選択する。この状態で、左下の「分類」ボタンをクリックすると、自動的に<code>name_en</code>の値による色分けが生成される。各色は、シンボルをダブルクリックすることで調整でき、凡例（ラベル）も変更できる。
+<img src="pic/Qpic31.png" alt="スタイルc"></p>
+<p>最後に、不要な分類を選択し削除する。<code>OK</code>をクリックすると変更が適用される。
+<img src="pic/Qpic32.png" alt="スタイルc"></p>
+<h3 id="ラベル">ラベル</h3>
+<p>データを表示する際に、属性情報に基づいてラベルを作成する機能です。以下では、属性値を用いて、ラベルを表示する手法について解説しています。</p>
+<p>デフォルトでは「ラベルなし」になっているので、<code>ラベル</code>のポップアップメニューを選択し、<code>単一のラベル</code>を指定し、ラベルのもととなる属性を指定する。ここでは、<code>name_en</code>を指定する。<code>OK</code>をクリックすると変更が適用され、地図上にラベルが表示される。
+<img src="pic/Qpic33.png" alt="スタイルc"></p>
+<p><a href="QGIS.md#Menu">▲メニューへもどる</a></p>
+<h2 id="地図タイルの読み込み">地図タイルの読み込み</h2>
+<p>　以下では、QGISにXYZタイル形式の背景地図（地理院タイル等）を読み込む手法について解説します。</p>
+<p>アイコンが並ぶ箇所（グレーの個所）で右クリックし、<code>パネル＞ブラウザパネル</code>をクリックする。<code>ブラウザパネル＞XYZ Tiles</code>を探し、右クリックし<code>新しい接続</code>をクリックする。
+<img src="pic/Qpic34.png" alt="xyz"></p>
+<p>国土地理院の<a href="http://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a>のページから、<code>２．基本測量成果以外で出典の記載のみで利用可能なもの＞タイル一覧＞空中写真・衛星画像＞2007年～</code>を選択し、URLをコピーする。コピーしたURL、名前、ズームレベルを以下のように設定する。<code>OK</code>をクリックすると、ブラウザパネルにタイルが追加される。追加されたタイルをクリックすると、レイヤウィンドウにレイヤとして追加でき、地図も表示される。</p>
+<p><img src="pic/Qpic35.png" alt="xyz"></p>
+<p><img src="pic/Qpic36.png" alt="xyz"></p>
+<p>※ 地理院タイルを利用する場合は、利用規約に従ってください。</p>
+<p>【註】画像上に地物のラベルを重ね合わせて表示すると、ラベルが画像に紛れて読みにくいことがあります。そのような場合は、レイヤプロパティ＞ラベル＞バッファにて、「テキストバッファを描画する」をクリックし、テキストを縁取り表示させることで見やすくなります。</p>
+<h3 id="xyzタイルの一括読み込み">XYZタイルの一括読み込み</h3>
+<p>事前にタイル情報を記述したxmlファイルを用いて、<code>接続をロード</code>から、複数のタイルをを一括で読み込むことが可能です。ここでは、使用データのファイル内にある<code>gisoer_tiles.xml</code>を利用します。</p>
+<blockquote>
+<p>gisoer_tilesは、株式会社MIERUNEの<a href="https://github.com/MIERUNE/mierune-qgis" target="_blank">GitHub(MIERUNE/mierune-qgis)</a>を参考に作成したものです。</p>
+</blockquote>
+<p><img src="pic/Qpic37.png" alt="xyz"></p>
+<p><a href="QGIS.md#Menu">▲メニューへもどる</a></p>
+<h2 id="地図のレイアウト">地図のレイアウト</h2>
+<p>　以下では、スタイリングしたデータと地理院タイルを用いて、地図をレイアウトして画像として出力する手法について解説します。この実習をはじめる前に、地図画面を任意の地域に拡大してください（以下では、東京大学本郷キャンパス周辺を表示しています）。</p>
+<p><code>プロジェクト＞新規プリントレイアウト</code>を選択し、タイトル（地図名など任意）を入力する。データが重ならない場合は、オンザフライCRS投影がうまくいっていない可能性があるので、QGISを再起動する。その後、サンプルデータ、XYZタイルの順で読み込む。
+<img src="pic/Qpic38.png" alt="地図のレイアウト"></p>
+<h3 id="プリントコンポーザ">プリントコンポーザ</h3>
+<p>プリントレイアウトでは、以下の機能を利用して地図を作成することができる。
+<img src="pic/Qpic39.png" alt="プリントコンポーザ"></p>
+<ol>
+<li>アイテムの選択と移動</li>
+<li>地図の移動</li>
+<li>地図の追加</li>
+<li>画像の追加</li>
+<li>テキストの追加</li>
+<li>凡例の追加</li>
+<li>縮尺バーの追加</li>
+<li>地図の出力</li>
+</ol>
+<p>※アイテムの削除は編集から行う。</p>
+<h4 id="レイアウト">レイアウト</h4>
+<p>以下のような地図を作成するため、地図、縮尺バー、凡例、タイトル等を追加する。</p>
+<p><img src="pic/Qpic40.png" alt="レイアウト"></p>
+<h4 id="地図の追加">地図の追加</h4>
+<p>地図の追加ボタンをクリックし、地図のレイアウト画面上でドラッグして大きさを指定して、地図を追加する。※追加される地図は、QGISで表示している範囲となる。
+<img src="pic/Qpic41.png" alt="レイアウト"></p>
+<h4 id="縮尺バーの追加">縮尺バーの追加</h4>
+<p>　以下のように、矢印の位置をクリックし、縮尺バーを追加する（ドラッグでの追加も可能）。縮尺バーを選択した状態で、アイテムプロパティのタブに切り替え、線分列の大きさの値等を変更する。
+<img src="pic/Qpic42.png" alt="縮尺"></p>
+<p><img src="pic/Qpic43.png" alt="縮尺"></p>
+<h4 id="凡例の追加">凡例の追加</h4>
+<p>縮尺と同様に凡例を追加する。凡例を選択し、アイテムプロパティで調整する。自動アップデートのチェックをはずすと凡例が編集できる。名称の変更、凡例項目の追加と削除ができる。
+<img src="pic/Qpic44.png" alt="凡例"></p>
+<p><img src="pic/Qpic45.png" alt="凡例"></p>
+<p>凡例に余白ができる場合は、<code>アイテムプロパティ</code>の<code>凡例アイテム</code>で地理院タイルを最下段に配置し、<code>メインプロパティ</code>の<code>大きさを内容にあわせる</code>のチェックをはずす。その後、手動で大きさを変更する。</p>
+<h4 id="方位記号の追加">方位記号の追加</h4>
+<p>画像の追加から方位記号を追加する。<code>アイテムプロパティ＞検索ディレクトリ</code>をクリックし、方位記号を選択する。デフォルトの状態では、図の赤枠部分をクリックしないと検索ディレクトリが開かないため、注意する。以下のように、アイテムプロパティで、画像の調節を行う。
+<img src="pic/Qpic46.png" alt="方位"></p>
+<h4 id="テキストの追加">テキストの追加</h4>
+<p>テキストの追加からテキストを追加する。メインプロパティに入力したいテキストを記述する。
+<img src="pic/Qpic47.png" alt="text"></p>
+<p>以下のように、フォントのサイズや配置等を調節する。
+<img src="pic/Qpic48.png" alt="text"></p>
+<p>同様の手法で、任意の個所に、背景地図やデータのライセンス等必要な情報をテキストで追加する。</p>
+<h3 id="画像の出力">画像の出力</h3>
+<p>地図のレイアウトを整えた後、画像としてエクスポートする。<code>レイアウト＞画像としてエクスポート</code>を選択する。
+<img src="pic/Qpic49.png" alt="エクスポート"></p>
+<p>エクスポートした画像ファイルをダブルクリックすると、以下のような地図が表示できる。画像を出力した後、プリントレイアウトを閉じる。
+<img src="pic/Qpic50.png" alt="エクスポートを表示"></p>
+<h3 id="qgisのビュー上に凡例と方位記号を表示する">QGISのビュー上に凡例と方位記号を表示する</h3>
+<p><code>ビュー&gt;地図装飾</code>を選択する。地図装飾からスケールバー、方位記号を追加する。それぞれの表示にチェックを入れ、形式や配置を調整し<code>OK</code>をクリックする。
+<img src="pic/Qpic51.png" alt="view"></p>
+<p>以下のように、QGISのビュー上に縮尺と方位記号が表示される。
+<img src="pic/Qpic52.png" alt="ビューb"></p>
+<h2 id="作業ファイルの保存">作業ファイルの保存</h2>
+<p>QGISには、作業ファイルを保存する機能がある。これにより、一度QGISを閉じた後でも、前回の状態から作業を再開することができる。</p>
+<p><code>プロジェクト＞名前を付けて保存</code>をクリックし、任意の名称で出力する。次回開くときは、出力した.qgzファイルをダブルクリックするとQGISが立ち上がる。
+<img src="pic/Qpic53.png" alt="save"></p>
+<p>【註】Macではインストール後に.qgzファイルとQGIS3の関連付けがなされていませんので、クリックしたときにアプリケーションの選択を聞かれますので、そこでQGIS3を「開くアプリケーション」として指定してください。</p>
+<p><a href="QGIS.md#Menu">▲メニューへもどる</a></p>
+<h2 id="プラグイン">プラグイン</h2>
+<p>　QGISでは、オフィシャルプラグインリポジトリ等から、様々な拡張機能をプラグインとしてインストールできます。プラグインをインストールすることにより、様々な処理が可能になります。<strong>プラグインの実際の使用法は、他の教材で解説しているため、ここではインストール方法のみ解説しています。</strong></p>
+<p><code>プラグイン＞プラグインの管理とインストール</code>を選択する。
+<img src="pic/Qpic54.png" alt="プラグインのインストール"></p>
+<p>検索から、インストールしたいプラグインを検索する。例として、以下のような便利なプラグインがある。
+【註】OpenLayers Pluginのように、プラグイン＞設定にて「実験的プラグインも表示する」にチェックを入れないと検索候補として表示されないものもあります。</p>
+<p><img src="pic/Qpic55.png" alt="プラグインの例">  </p>
+<h2 id="データの保存形式">データの保存形式</h2>
+<p>　GISでは、Shapefile（シェープファイル）形式のベクトルデータを用いることが多いです。しかし、使用するソフトウェアやアプリケーションによっては、別の形式のファイルを使用します。ここでは、QGISによるデータのエクスポートについて解説します。</p>
+<p>レイヤの上で右クリックし名前をつけて保存をクリックする。QGISでは、シェープファイル以外にも、KMLやCSV等、様々な形式のデータを出力することができる。
+<img src="pic/Qpic59.png" alt="データの保存"></p>
+<p>KMLは、Google Earthで利用できる形式である。Cesiumなどを利用することで、Web上でも表現しやすいデータである。
+<img src="pic/Qpic60.png" alt="KML">
+上の図は、東京駅から東京タワーまでの道のりを表示したもの。</p>
+<p>CSVは、カンマで区切られたデータ形式である。座標値をもっていればCartoなどで簡単にWeb GISとして表現できる。
+<img src="pic/Qpic61.png" alt="CSV">
+上の図は、裾野市オープンデータ　広域避難地・市指定避難所データを加工したものを利用し作成したもの</p>
+<p><a href="QGIS.md#Menu">▲メニューへもどる</a></p>
+<h4 id="この教材の課題ページqgisビギナーズマニュアルへ進む">この教材の<a href="tasks/t_qgis_entry.html">課題ページ_QGISビギナーズマニュアル</a>へ進む</h4>
+<h4 id="ライセンスに関する注意事項">ライセンスに関する注意事項</h4>
+<p>本教材で利用しているキャプチャ画像の出典やクレジットについては、<a href="../license.md">その他のライセンスについて</a>よりご確認ください。</p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="./" class="navigation navigation-prev " aria-label="Previous page: Day 1">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="tasks/t_qgis_entry.html" class="navigation navigation-next " aria-label="Next page: 課題①">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"QGIS入門","level":"1.3.3.1.1","depth":4,"next":{"title":"課題①","level":"1.3.3.1.2","depth":4,"path":"learning/QGIS_3days/day1/tasks/t_qgis_entry.md","ref":"./learning/QGIS_3days/day1/tasks/t_qgis_entry.md","articles":[]},"previous":{"title":"Day 1","level":"1.3.3.1","depth":3,"path":"learning/QGIS_3days/day1/README.md","ref":"./learning/QGIS_3days/day1/README.md","articles":[{"title":"QGIS入門","level":"1.3.3.1.1","depth":4,"path":"learning/QGIS_3days/day1/qgis.md","ref":"./learning/QGIS_3days/day1/qgis.md","articles":[]},{"title":"課題①","level":"1.3.3.1.2","depth":4,"path":"learning/QGIS_3days/day1/tasks/t_qgis_entry.md","ref":"./learning/QGIS_3days/day1/tasks/t_qgis_entry.md","articles":[]},{"title":"データダウンロード","level":"1.3.3.1.3","depth":4,"path":"learning/QGIS_3days/day1/07.md","ref":"./learning/QGIS_3days/day1/07.md","articles":[{"title":"課題②","level":"1.3.3.1.3.1","depth":5,"path":"learning/QGIS_3days/day1/tasks/t_07.md","ref":"./learning/QGIS_3days/day1/tasks/t_07.md","articles":[]}]},{"title":"ネットワーク分析","level":"1.3.3.1.4","depth":4,"path":"learning/QGIS_3days/day1/12.md","ref":"./learning/QGIS_3days/day1/12.md","articles":[]},{"title":"課題③","level":"1.3.3.1.5","depth":4,"path":"learning/QGIS_3days/day1/tasks/t_12.md","ref":"./learning/QGIS_3days/day1/tasks/t_12.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":["-sharing","-sharing-plus","collapsible-menu","creativecommons","favicon","ga","github","github-buttons"],"root":".","styles":{"website":"styles/website.css"},"pluginsConfig":{"collapsible-menu":{},"github":{"url":"https://github.com/yamauchi-inochu/learning"},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"favicon":{"shortcut":"./img/favicon.ico","bookmark":"./img/favicon.ico","appleTouch":"./img/apple-touch-icon.png","appleTouchMore":{"120x120":"./img/favicon.ico","180x180":"./img/favicon.ico"}},"github-buttons":{"buttons":[{"user":"yamauchi-inochu","repo":"learning","type":"star","size":"small","count":true}]},"creativecommons":{},"ga":{"configuration":"auto","token":"x"},"sharing":{"qq":false,"all":["facebook","google"],"douban":false,"facebook":false,"weibo":false,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":true,"messenger":false,"line":false,"vk":false,"pocket":false,"google":false,"viber":false,"stumbleupon":false,"qzone":false,"linkedin":false},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"test","honkit":">= 4.0.4","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"test","language":"ja","gitbook":"*"},"file":{"path":"learning/QGIS_3days/day1/qgis.md","mtime":"2022-02-06T11:18:17.128Z","type":"markdown"},"gitbook":{"version":"3.7.1","time":"2024-08-11T13:39:44.011Z"},"basePath":"../../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <noscript>
+        <style>
+            .honkit-cloak {
+                display: block !important;
+            }
+        </style>
+    </noscript>
+    <script>
+        // Restore sidebar state as critical path for prevent layout shift
+        function __init__getSidebarState(defaultValue){
+            var baseKey = "";
+            var key = baseKey + ":sidebar";
+            try {
+                var value = localStorage[key];
+                if (value === undefined) {
+                    return defaultValue;
+                }
+                var parsed = JSON.parse(value);
+                return parsed == null ? defaultValue : parsed;
+            } catch (e) {
+                return defaultValue;
+            }
+        }
+        function __init__restoreLastSidebarState() {
+            var isMobile = window.matchMedia("(max-width: 600px)").matches;
+            if (isMobile) {
+                // Init last state if not mobile
+                return;
+            }
+            var sidebarState = __init__getSidebarState(true);
+            var book = document.querySelector(".book");
+            // Show sidebar if it enabled
+            if (sidebarState && book) {
+                book.classList.add("without-animation", "with-summary");
+            }
+        }
+
+        try {
+            __init__restoreLastSidebarState();
+        } finally {
+            var book = document.querySelector(".book");
+            book.classList.remove("honkit-cloak");
+        }
+    </script>
+    <script src="../../../gitbook/gitbook.js"></script>
+    <script src="../../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-collapsible-menu/plugin.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-ga/plugin.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-github/plugin.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-github-buttons/plugin.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

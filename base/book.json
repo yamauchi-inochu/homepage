@@ -1,0 +1,66 @@
+{
+    "title": "test",
+    "author": "test",
+    "honkit": ">= 4.0.4",
+    "language": "ja",
+    "root": ".",
+    "plugins": [
+        "-sharing",
+        "-sharing-plus",
+        "collapsible-menu",
+        "creativecommons",
+        "favicon",
+        "ga",
+        "github",
+        "github-buttons"
+    ],
+    "pluginsConfig": {
+      "sharing": {
+          "douban": false,
+          "facebook": false,
+          "google": false,
+          "hatenaBookmark": false,
+          "instapaper": false,
+          "line": false,
+          "linkedin": false,
+          "messenger": false,
+          "pocket": false,
+          "qq": false,
+          "qzone": false,
+          "stumbleupon": false,
+          "twitter": true,
+          "viber": false,
+          "vk": false,
+          "weibo": false,
+          "whatsapp": false,
+          "all": ["facebook", "google"]
+      },
+    "favicon":{
+        "shortcut": "./img/favicon.ico",
+        "bookmark": "./img/favicon.ico",
+        "appleTouch": "./img/apple-touch-icon.png",
+        "appleTouchMore": {
+            "120x120": "./img/favicon.ico",
+            "180x180": "./img/favicon.ico"
+        }
+    },
+    "ga": {
+      "token": "x"
+    },
+    "github": {
+            "url": "https://github.com/yamauchi-inochu/learning"
+        },
+        "github-buttons": {
+         "buttons": [{
+           "user": "yamauchi-inochu",
+           "repo": "learning",
+           "type": "star",
+           "size": "small",
+           "count": true
+         }]
+       }
+},
+    "styles": {
+        "website": "styles/website.css"
+    }
+}

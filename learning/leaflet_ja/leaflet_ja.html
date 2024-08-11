@@ -1,0 +1,1160 @@
+
+<!DOCTYPE HTML>
+<html lang="ja" >
+    <head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-CS6VQ7FG4S"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-CS6VQ7FG4S');
+</script>
+
+        <meta charset="UTF-8">
+        <title>Leaflet for beginners · test</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="HonKit 3.7.1">
+        <meta name="author" content="test">
+        
+        
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+        <link rel="stylesheet" href="../../styles/website.css">
+        
+    
+
+        
+    
+    
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="../../works.html" />
+    
+    
+    <link rel="prev" href="../3d_scanning/3d_scanning.html" />
+    
+
+    <style>
+    @media only screen and (max-width: 640px) {
+        .book-header .hidden-mobile {
+            display: none;
+        }
+    }
+    </style>
+    <script>
+        window["gitbook-plugin-github-buttons"] = {"buttons":[{"user":"yamauchi-inochu","repo":"learning","type":"star","size":"small","count":true}]};
+    </script>
+
+    
+        <link rel="shortcut icon" href='../../img/favicon.ico' type="image/x-icon">
+    
+    
+        <link rel="bookmark" href='../../img/favicon.ico' type="image/x-icon">
+    
+    
+        <link rel="apple-touch-icon" href='../../img/apple-touch-icon.png'>
+    
+    
+        
+        <link rel="apple-touch-icon" sizes="120x120" href="../../img/favicon.ico">
+        
+        <link rel="apple-touch-icon" sizes="180x180" href="../../img/favicon.ico">
+        
+    
+
+    </head>
+    <body>
+        
+<div class="book honkit-cloak">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="検索ワードを入力" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    The Yamauchi Lab
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../../about.html">
+            
+                <a href="../../about.html">
+            
+                    
+                    About
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Materials
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../ArcGISPro/">
+            
+                <a href="../ArcGISPro/">
+            
+                    
+                    ArcGIS Pro
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1.1" data-path="../ArcGISPro/1/1.html">
+            
+                <a href="../ArcGISPro/1/1.html">
+            
+                    
+                    ArcGIS Proビギナーズマニュアル
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.1.2" data-path="../ArcGISPro/2/2.html">
+            
+                <a href="../ArcGISPro/2/2.html">
+            
+                    
+                    GISデータの取得
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.1.3" data-path="../ArcGISPro/3/3.html">
+            
+                <a href="../ArcGISPro/3/3.html">
+            
+                    
+                    空間データの座標変換
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.1.4" data-path="../ArcGISPro/4/4.html">
+            
+                <a href="../ArcGISPro/4/4.html">
+            
+                    
+                    ジオリファレンスとジオコーディング
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.1.5" data-path="../ArcGISPro/5/5.html">
+            
+                <a href="../ArcGISPro/5/5.html">
+            
+                    
+                    GISデータの作成
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.1.6" data-path="../ArcGISPro/6/6.html">
+            
+                <a href="../ArcGISPro/6/6.html">
+            
+                    
+                    基本的な空間解析
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.1.7" data-path="../ArcGISPro/7/7.html">
+            
+                <a href="../ArcGISPro/7/7.html">
+            
+                    
+                    領域分析と空間検索
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.1.8" data-path="../ArcGISPro/8/8.html">
+            
+                <a href="../ArcGISPro/8/8.html">
+            
+                    
+                    ポイントデータの集計とテーブル結合
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.1.9" data-path="../ArcGISPro/9/9.html">
+            
+                <a href="../ArcGISPro/9/9.html">
+            
+                    
+                    標高データの可視化と分析
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../ArcGISOnline/">
+            
+                <a href="../ArcGISOnline/">
+            
+                    
+                    ArcGIS Online
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.2.1" data-path="../ArcGISOnline/1/ao1.html">
+            
+                <a href="../ArcGISOnline/1/ao1.html">
+            
+                    
+                    地図の作成とオンライン公開
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="../QGIS_3days/">
+            
+                <a href="../QGIS_3days/">
+            
+                    
+                    QGIS:ja
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.3.1" data-path="../QGIS_3days/day1/">
+            
+                <a href="../QGIS_3days/day1/">
+            
+                    
+                    Day 1
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.3.1.1" data-path="../QGIS_3days/day1/qgis.html">
+            
+                <a href="../QGIS_3days/day1/qgis.html">
+            
+                    
+                    QGIS入門
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3.1.2" data-path="../QGIS_3days/day1/tasks/t_qgis_entry.html">
+            
+                <a href="../QGIS_3days/day1/tasks/t_qgis_entry.html">
+            
+                    
+                    課題①
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3.1.3" data-path="../QGIS_3days/day1/07.html">
+            
+                <a href="../QGIS_3days/day1/07.html">
+            
+                    
+                    データダウンロード
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.3.1.3.1" data-path="../QGIS_3days/day1/tasks/t_07.html">
+            
+                <a href="../QGIS_3days/day1/tasks/t_07.html">
+            
+                    
+                    課題②
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3.1.4" data-path="../QGIS_3days/day1/12.html">
+            
+                <a href="../QGIS_3days/day1/12.html">
+            
+                    
+                    ネットワーク分析
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3.1.5" data-path="../QGIS_3days/day1/tasks/t_12.html">
+            
+                <a href="../QGIS_3days/day1/tasks/t_12.html">
+            
+                    
+                    課題③
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3.2" data-path="../QGIS_3days/day2/">
+            
+                <a href="../QGIS_3days/day2/">
+            
+                    
+                    Day 2
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.3.2.1" data-path="../QGIS_3days/day2/08_1.html">
+            
+                <a href="../QGIS_3days/day2/08_1.html">
+            
+                    
+                    空間座標系の変換
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3.2.2" data-path="../QGIS_3days/day2/tasks/t_08.html">
+            
+                <a href="../QGIS_3days/day2/tasks/t_08.html">
+            
+                    
+                    課題①
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3.2.3" data-path="../QGIS_3days/day2/11.html">
+            
+                <a href="../QGIS_3days/day2/11.html">
+            
+                    
+                    基本的な空間解析
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3.2.4" data-path="../QGIS_3days/day2/tasks/t_11.html">
+            
+                <a href="../QGIS_3days/day2/tasks/t_11.html">
+            
+                    
+                    課題②〜③
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3.2.5" data-path="../QGIS_3days/day2/13.html">
+            
+                <a href="../QGIS_3days/day2/13.html">
+            
+                    
+                    領域分析（バッファ）
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3.2.6" data-path="../QGIS_3days/day2/tasks/t_13.html">
+            
+                <a href="../QGIS_3days/day2/tasks/t_13.html">
+            
+                    
+                    課題④
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3.2.7" data-path="../QGIS_3days/day2/14.html">
+            
+                <a href="../QGIS_3days/day2/14.html">
+            
+                    
+                    点データの分析
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3.2.8" data-path="../QGIS_3days/day2/tasks/t_14.html">
+            
+                <a href="../QGIS_3days/day2/tasks/t_14.html">
+            
+                    
+                    課題⑤
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3.3" data-path="../QGIS_3days/day3/">
+            
+                <a href="../QGIS_3days/day3/">
+            
+                    
+                    Day 3
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.3.3.1" data-path="../QGIS_3days/day3/10a.html">
+            
+                <a href="../QGIS_3days/day3/10a.html">
+            
+                    
+                    空間データの作成
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3.3.2" data-path="../QGIS_3days/day3/tasks/t_10.html">
+            
+                <a href="../QGIS_3days/day3/tasks/t_10.html">
+            
+                    
+                    課題①
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3.3.3" data-path="../QGIS_3days/day3/15.html">
+            
+                <a href="../QGIS_3days/day3/15.html">
+            
+                    
+                    地形情報の可視化
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3.3.4" data-path="../QGIS_3days/day3/tasks/t_15.html">
+            
+                <a href="../QGIS_3days/day3/tasks/t_15.html">
+            
+                    
+                    課題②
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3.3.5" data-path="../QGIS_3days/day3/15_1.html">
+            
+                <a href="../QGIS_3days/day3/15_1.html">
+            
+                    
+                    流域解析
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3.3.6" data-path="../QGIS_3days/day3/tasks/t_15_1.html">
+            
+                <a href="../QGIS_3days/day3/tasks/t_15_1.html">
+            
+                    
+                    課題③
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3.3.7" data-path="../QGIS_3days/day3/18.html">
+            
+                <a href="../QGIS_3days/day3/18.html">
+            
+                    
+                    空間補間
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3.3.8" data-path="../QGIS_3days/day3/tasks/t_18.html">
+            
+                <a href="../QGIS_3days/day3/tasks/t_18.html">
+            
+                    
+                    課題④〜⑤
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="../3d_scanning/3d_scanning.html">
+            
+                <a href="../3d_scanning/3d_scanning.html">
+            
+                    
+                    Mobile 3D scanning
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.3.5" data-path="leaflet_ja.html">
+            
+                <a href="leaflet_ja.html">
+            
+                    
+                    Leaflet for beginners
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../../works.html">
+            
+                <a href="../../works.html">
+            
+                    
+                    Works
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../../notes/readme.html">
+            
+                <a href="../../notes/readme.html">
+            
+                    
+                    Notes
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="../../contact.html">
+            
+                <a href="../../contact.html">
+            
+                    
+                    Contact
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://github.com/honkit/honkit" target="blank" class="gitbook-link">
+            HonKitで公開 
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../.." >Leaflet for beginners</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="leaflet入門">Leaflet入門</h1>
+<p>ここでは、WEB地図の作成入門として、Leafletの利用方法について演習形式で解説します。内容は、<a href="https://leafletjs.com/" target="_blank">Leaflet web site</a>を参考に作成しています。</p>
+<h2 id="menu"><strong>Menu</strong></h2>
+<ul>
+<li>Leafletについて</li>
+<li>今日の学習成果について</li>
+<li>イントロ</li>
+<li>APIの利用</li>
+<li>WEB地図の保存</li>
+<li>レイヤの実装</li>
+<li>ポイントデータの作成</li>
+<li>スケールの追加</li>
+<li>課題</li>
+</ul>
+<hr>
+<h2 id="leafletについて">Leafletについて</h2>
+<p>Leafletは、WEB地図の作成のためのオープンソースJavaScriptライブラリです。シンプルなコーディングで容易に、モバイルやデスクトップの表示に対応したWEB地図が作成できます。全体のファイルサイズが軽いことや様々な地図表現（マーカやタイル読み込み）ができることが特徴です。Leafletに関する詳しい解説は、以下のリンクを参照してください。</p>
+<blockquote>
+<ul>
+<li><a href="http://Leafletjs.com/" target="_blank">Leaflet</a> </li>
+<li><a href="https://ja.wikipedia.org/wiki/Leaflet" target="_blank">Wikipedia</a></li>
+</ul>
+</blockquote>
+<p><a href="Leaflet.md#Menu">▲ Back to Menu</a></p>
+<h2 id="学習の完成例">学習の完成例</h2>
+<p>学習をはじめる前に <a href="https://yamauchi-inochu.github.io/webmap/leaflet-practice.html" target="_blank">この実習で作成する地図の全体像</a>. をみてみましょう。</p>
+<pre><code class="lang-html">
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">title</span>&gt;</span>webmap<span class="hljs-tag">&lt;/<span class="hljs-name">title</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">link</span> <span class="hljs-attr">rel</span>=<span class="hljs-string">&quot;stylesheet&quot;</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;https://unpkg.com/leaflet@1.9.4/dist/leaflet.css&quot;</span> <span class="hljs-attr">integrity</span>=<span class="hljs-string">&quot;sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=&quot;</span> <span class="hljs-attr">crossorigin</span>=<span class="hljs-string">&quot;&quot;</span> /&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">script</span> <span class="hljs-attr">src</span>=<span class="hljs-string">&quot;https://unpkg.com/leaflet@1.9.4/dist/leaflet.js&quot;</span> <span class="hljs-attr">integrity</span>=<span class="hljs-string">&quot;sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=&quot;</span> <span class="hljs-attr">crossorigin</span>=<span class="hljs-string">&quot;&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;map&quot;</span> <span class="hljs-attr">style</span>=<span class="hljs-string">&quot;height: 100%; width: 100%;&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">script</span>&gt;</span><span class="javascript">
+
+        <span class="hljs-keyword">const</span> basemap = L.tileLayer(<span class="hljs-string">&apos;https://tile.openstreetmap.org/{z}/{x}/{y}.png&apos;</span>, {
+            <span class="hljs-attr">maxZoom</span>: <span class="hljs-number">19</span>,
+            <span class="hljs-attr">attribution</span>: <span class="hljs-string">&apos;&amp;copy; &lt;a href=&quot;http://www.openstreetmap.org/copyright&quot;&gt;OpenStreetMap&lt;/a&gt;&apos;</span>
+        })
+
+        <span class="hljs-keyword">const</span> addmap1 = L.tileLayer(<span class="hljs-string">&apos;https://cyberjapandata.gsi.go.jp/xyz/ort/{z}/{x}/{y}.jpg&apos;</span>, {
+        <span class="hljs-attr">maxZoom</span>: <span class="hljs-number">18</span>,
+        <span class="hljs-attr">attribution</span>: <span class="hljs-string">&quot;&lt;a href=&apos;https://maps.gsi.go.jp/development/ichiran.html&apos; target=&apos;_blank&apos;&gt;GSI maps&lt;/a&gt;&quot;</span>
+        });
+
+        <span class="hljs-keyword">var</span> markers = L.layerGroup();
+
+        L.marker([<span class="hljs-number">34.9849</span>,<span class="hljs-number">135.7586</span>]).bindPopup(<span class="hljs-string">&apos;Kyoto station&apos;</span>).addTo(markers),
+        L.marker([<span class="hljs-number">35.0138</span>,<span class="hljs-number">135.7516</span>]).bindPopup(<span class="hljs-string">&apos;Nijoujo&apos;</span>).addTo(markers),
+        L.marker([<span class="hljs-number">35.03949</span>,<span class="hljs-number">135.72955</span>]).bindPopup(<span class="hljs-string">&apos;Kinkakuji&apos;</span>).addTo(markers),
+        L.marker([<span class="hljs-number">35.0303</span>,<span class="hljs-number">135.7349</span>]).bindPopup(<span class="hljs-string">&apos;Kitanotenmangu&apos;</span>).addTo(markers);
+
+
+    <span class="hljs-keyword">const</span> webmap = L.map(<span class="hljs-string">&apos;map&apos;</span>,{
+            <span class="hljs-attr">center</span>:[<span class="hljs-number">34.9849</span>,<span class="hljs-number">135.7586</span>],
+            <span class="hljs-attr">zoom</span>:<span class="hljs-number">12</span>,
+            <span class="hljs-attr">layers</span>:[basemap,markers]
+        });
+
+    <span class="hljs-keyword">const</span> maps = {
+    <span class="hljs-string">&quot;OSM&quot;</span>:basemap,
+    <span class="hljs-string">&quot;Aerial photo（2007～）&quot;</span>:addmap1
+    };
+
+    <span class="hljs-keyword">const</span> spots = {
+        <span class="hljs-string">&quot;Sightseeing spots&quot;</span>: markers,
+    };
+
+
+    L.control.layers(maps,spots).addTo(webmap);
+
+    L.control.scale({<span class="hljs-attr">imperial</span>: <span class="hljs-literal">false</span>}).addTo(webmap);
+
+    </span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span>
+</code></pre>
+<p><a href="Leaflet.md#Menu">▲ Back to Menu</a></p>
+<h2 id="イントロ">イントロ</h2>
+<p>ここでは、Hosted VersionのLeafletを使用していきます。 まずは、デスクトップに<code>webmap</code>というフォルダを作ります。次に、メモ帳などのテキストエディタに以下のコードをコピペします。最後にテキストファイルを<code>webmap.html</code>という名前で<code>webmap</code>のフォルダに保存します。</p>
+<pre><code class="lang-html"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-meta-keyword">html</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">title</span>&gt;</span>webmap<span class="hljs-tag">&lt;/<span class="hljs-name">title</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">script</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span>
+</code></pre>
+<p><a href="Leaflet.md#Menu">▲ Back to Menu</a></p>
+<h2 id="leaflet-apiの利用">Leaflet APIの利用</h2>
+<p><a href="https://leafletjs.com/download.html" target="_blank">Leaflet</a>にアクセスし、<code>Using a Hosted Version of Leaflet</code>にあるコードをコピーします。</p>
+<p><img src="pic/web_1.png" alt="web"></p>
+<p>次に<code>webmap.html</code>をテキストエディタでひらき、<code>&lt;head&gt;</code> タグ内に先ほどのコードをコピペします。</p>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">title</span>&gt;</span>webmap<span class="hljs-tag">&lt;/<span class="hljs-name">title</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">link</span> <span class="hljs-attr">rel</span>=<span class="hljs-string">&quot;stylesheet&quot;</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;https://unpkg.com/leaflet@1.9.4/dist/leaflet.css&quot;</span> <span class="hljs-attr">integrity</span>=<span class="hljs-string">&quot;sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=&quot;</span> <span class="hljs-attr">crossorigin</span>=<span class="hljs-string">&quot;&quot;</span> /&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">script</span> <span class="hljs-attr">src</span>=<span class="hljs-string">&quot;https://unpkg.com/leaflet@1.9.4/dist/leaflet.js&quot;</span> <span class="hljs-attr">integrity</span>=<span class="hljs-string">&quot;sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=&quot;</span> <span class="hljs-attr">crossorigin</span>=<span class="hljs-string">&quot;&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+</code></pre>
+<p><code>&lt;body&gt;</code>にタグ内に <code>&lt;div id=&quot;map&quot; style=&quot;height: 100%; width: 100%;&quot;&gt;&lt;/div&gt;</code> を追加します。 その下に<code>&lt;script&gt;</code>タグを追加します。</p>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;map&quot;</span> <span class="hljs-attr">style</span>=<span class="hljs-string">&quot;height: 100%; width: 100%;&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">script</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+</code></pre>
+<p><a href="Leaflet.md#Menu">▲ Back to Menu</a></p>
+<h2 id="背景地図の設定">背景地図の設定</h2>
+<p><code>&lt;body&gt;</code>の<code>&lt;script&gt;</code> を以下のように記述します。<code>setView([xxxx,xxxxx], 13)</code>の箇所には、中央に表示したい場所の座標、初期表示のズームレベルを記載します。ここでは、デフォルトの地図画像として<code>L.tileLayer</code>を使って、OpenStreetMap (OSM)を読み込みます。</p>
+<pre><code class="lang-JavaScript">
+<span class="hljs-keyword">const</span> basemap = L.tileLayer(<span class="hljs-string">&apos;https://tile.openstreetmap.org/{z}/{x}/{y}.png&apos;</span>, {
+            <span class="hljs-attr">maxZoom</span>: <span class="hljs-number">19</span>,
+            <span class="hljs-attr">attribution</span>: <span class="hljs-string">&apos;&amp;copy; &lt;a href=&quot;http://www.openstreetmap.org/copyright&quot;&gt;OpenStreetMap&lt;/a&gt;&apos;</span>
+        })
+
+<span class="hljs-keyword">const</span> webmap = L.map(<span class="hljs-string">&apos;map&apos;</span>,{
+            <span class="hljs-attr">center</span>:[<span class="hljs-number">34.9849</span>,<span class="hljs-number">135.7586</span>],
+            <span class="hljs-attr">zoom</span>:<span class="hljs-number">12</span>,
+            <span class="hljs-attr">layers</span>:[basemap]
+        });
+</code></pre>
+<p><a href="Leaflet.md#Menu">▲ Back to Menu</a></p>
+<h2 id="保存と地図表示">保存と地図表示</h2>
+<p>テキストの追加が完了したら、まずはここで上書き保存します。Webブラウザで、htmlファイルを開いてみると以下のような地図が表示されます。以下の<code>//Grouping tile layers</code>と<code>// Setting layer selecting box</code>では、チェックをつけた地図を切り替えて表示できるようにします。
+<img src="pic/web_2.png" alt="web"></p>
+<p><a href="Leaflet.md#Menu">▲ Back to Menu</a></p>
+<h2 id="複数の背景地図の設定">複数の背景地図の設定</h2>
+<p>ここからは、複数の背景地図を追加して、地図上で切り替えられるようにします。まずは、<a href="https://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a>の写真のタイルを読み込んでみましょう。</p>
+<pre><code class="lang-JavaScript"><span class="hljs-keyword">const</span> basemap = L.tileLayer(<span class="hljs-string">&apos;https://tile.openstreetmap.org/{z}/{x}/{y}.png&apos;</span>, {
+        <span class="hljs-attr">maxZoom</span>: <span class="hljs-number">19</span>,
+        <span class="hljs-attr">attribution</span>: <span class="hljs-string">&apos;&amp;copy; &lt;a href=&quot;http://www.openstreetmap.org/copyright&quot;&gt;OpenStreetMap&lt;/a&gt;&apos;</span>
+    })
+
+<span class="hljs-keyword">const</span> addmap1 = L.tileLayer(<span class="hljs-string">&apos;https://cyberjapandata.gsi.go.jp/xyz/ort/{z}/{x}/{y}.jpg&apos;</span>, {
+<span class="hljs-attr">maxZoom</span>: <span class="hljs-number">18</span>,
+<span class="hljs-attr">attribution</span>: <span class="hljs-string">&quot;&lt;a href=&apos;https://maps.gsi.go.jp/development/ichiran.html&apos; target=&apos;_blank&apos;&gt;GSI maps&lt;/a&gt;&quot;</span>
+});
+
+<span class="hljs-keyword">const</span> webmap = L.map(<span class="hljs-string">&apos;map&apos;</span>,{
+    <span class="hljs-attr">center</span>:[<span class="hljs-number">34.9849</span>,<span class="hljs-number">135.7586</span>],
+    <span class="hljs-attr">zoom</span>:<span class="hljs-number">14</span>,
+    <span class="hljs-attr">layers</span>:[basemap] <span class="hljs-comment">//A layer is displayed when the map is opened.</span>
+});
+
+<span class="hljs-comment">//Grouping tile layers</span>
+<span class="hljs-keyword">const</span> maps = {
+<span class="hljs-string">&quot;OSM&quot;</span>:basemap,
+<span class="hljs-string">&quot;Aerial photo（2007～）&quot;</span>:addmap1
+};
+
+<span class="hljs-comment">// Setting layer selecting box</span>
+L.control.layers(maps).addTo(webmap);
+</code></pre>
+<p><a href="Leaflet.md#Menu">▲ Back to Menu</a></p>
+<h2 id="ポイントデータの作成">ポイントデータの作成</h2>
+<p>ここでは、Point,データを作成していきます。</p>
+<h3 id="osmから緯度経度を取得する">OSMから緯度経度を取得する</h3>
+<p><a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap (OSM) </a>を開いて、任意の場所で右クリックすると<code>Show address</code>からその場所の緯度経度を知ることができます。</p>
+<p><img src="pic/web_3.png" alt="web"></p>
+<p>下記のように記載すると、ポイントデータが記載できます。</p>
+<p><code>L.marker([34.9850, 135.7588])</code> は、ポイントデータの座標を記載します. The <code>bindPopup</code> では、ポップアップを指定できます。</p>
+<pre><code class="lang-JavaScript">L.marker([<span class="hljs-number">34.9850</span>,<span class="hljs-number">135.7588</span>]).bindPopup(<span class="hljs-string">&apos;Kyoto station&apos;</span>).addTo(webmap);
+</code></pre>
+<h3 id="レイヤのグループ化と実装">レイヤのグループ化と実装</h3>
+<p>ここでは作成したポイントデータをグルーピングして、レイヤとして表示していきます。京都駅に加え、二条城、金閣寺、北野天満宮の位置を加え、観光スポットとして地図で閲覧できるようにします。ポイントをクリックすると記載したポップアップが表示されます。</p>
+<pre><code class="lang-JavaScript"><span class="hljs-keyword">var</span> markers = L.layerGroup();
+
+L.marker([<span class="hljs-number">34.9849</span>,<span class="hljs-number">135.7586</span>]).bindPopup(<span class="hljs-string">&apos;Kyoto station&apos;</span>).addTo(markers),
+L.marker([<span class="hljs-number">35.0138</span>,<span class="hljs-number">135.7516</span>]).bindPopup(<span class="hljs-string">&apos;Nijoujo&apos;</span>).addTo(markers),
+L.marker([<span class="hljs-number">35.03949</span>,<span class="hljs-number">135.72955</span>]).bindPopup(<span class="hljs-string">&apos;Kinkakuji&apos;</span>).addTo(markers),
+L.marker([<span class="hljs-number">35.0303</span>,<span class="hljs-number">135.7349</span>]).bindPopup(<span class="hljs-string">&apos;Kitanotenmangu&apos;</span>).addTo(markers);
+
+<span class="hljs-keyword">const</span> webmap = L.map(<span class="hljs-string">&apos;map&apos;</span>,{
+        <span class="hljs-attr">center</span>:[<span class="hljs-number">34.9849</span>,<span class="hljs-number">135.7586</span>],
+        <span class="hljs-attr">zoom</span>:<span class="hljs-number">12</span>,
+        <span class="hljs-attr">layers</span>:[basemap,markers] <span class="hljs-comment">// Layers are displayed when the map is opened.</span>
+    });
+
+<span class="hljs-comment">// Listing tile layers for displaying in the layer selection box.</span>
+<span class="hljs-keyword">const</span> maps = {
+<span class="hljs-string">&quot;OSM&quot;</span>:basemap,
+<span class="hljs-string">&quot;Aerial photo（2007～）&quot;</span>:addmap1
+};
+
+
+<span class="hljs-comment">// Listing vector layers for displaying in the layer selection box.</span>
+<span class="hljs-keyword">const</span> spots = {
+    <span class="hljs-string">&quot;Sightseeing spots&quot;</span>: markers,
+};
+
+<span class="hljs-comment">// Adding features to the layer selecting box.</span>
+L.control.layers(maps,spots).addTo(webmap);
+</code></pre>
+<p><a href="Leaflet.md#Menu">▲ Back to Menu</a></p>
+<h2 id="スケールの追加">スケールの追加</h2>
+<p><code>&lt;script&gt;</code>の最後に、以下を記述することで、スケールが追加できる。</p>
+<pre><code class="lang-Javascript">L.control.scale({<span class="hljs-attr">imperial</span>: <span class="hljs-literal">false</span>}).addTo(webmap);
+</code></pre>
+<p>最終的に作成したものを上書き保存して、ブラウザで開くと、完成例と同じものが表示される。</p>
+<p><a href="Leaflet.md#Menu">▲ Back to Menu</a></p>
+<h2 id="課題">課題</h2>
+<p>京都市内をテーマに何かのおすすめマップを作成してください。地図は、2枚以上のWeb地図が切り替えられ、５地点以上のポイントが含まれていること。</p>
+<h3 id="完成例（奈良）">完成例（奈良）</h3>
+<p><img src="pic/webt-1.png" alt="img"></p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="../3d_scanning/3d_scanning.html" class="navigation navigation-prev " aria-label="Previous page: Mobile 3D scanning">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="../../works.html" class="navigation navigation-next " aria-label="Next page: Works">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Leaflet for beginners","level":"1.3.5","depth":2,"next":{"title":"Works","level":"1.4","depth":1,"path":"works.md","ref":"./works.md","articles":[]},"previous":{"title":"Mobile 3D scanning","level":"1.3.4","depth":2,"path":"learning/3d_scanning/3d_scanning.md","ref":"./learning/3d_scanning/3d_scanning.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-sharing","-sharing-plus","collapsible-menu","creativecommons","favicon","ga","github","github-buttons"],"root":".","styles":{"website":"styles/website.css"},"pluginsConfig":{"collapsible-menu":{},"github":{"url":"https://github.com/yamauchi-inochu/learning"},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"favicon":{"shortcut":"./img/favicon.ico","bookmark":"./img/favicon.ico","appleTouch":"./img/apple-touch-icon.png","appleTouchMore":{"120x120":"./img/favicon.ico","180x180":"./img/favicon.ico"}},"github-buttons":{"buttons":[{"user":"yamauchi-inochu","repo":"learning","type":"star","size":"small","count":true}]},"creativecommons":{},"ga":{"configuration":"auto","token":"x"},"sharing":{"qq":false,"all":["facebook","google"],"douban":false,"facebook":false,"weibo":false,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":true,"messenger":false,"line":false,"vk":false,"pocket":false,"google":false,"viber":false,"stumbleupon":false,"qzone":false,"linkedin":false},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"test","honkit":">= 4.0.4","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"test","language":"ja","gitbook":"*"},"file":{"path":"learning/leaflet_ja/leaflet_ja.md","mtime":"2024-06-06T08:40:20.091Z","type":"markdown"},"gitbook":{"version":"3.7.1","time":"2024-08-11T13:39:44.011Z"},"basePath":"../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <noscript>
+        <style>
+            .honkit-cloak {
+                display: block !important;
+            }
+        </style>
+    </noscript>
+    <script>
+        // Restore sidebar state as critical path for prevent layout shift
+        function __init__getSidebarState(defaultValue){
+            var baseKey = "";
+            var key = baseKey + ":sidebar";
+            try {
+                var value = localStorage[key];
+                if (value === undefined) {
+                    return defaultValue;
+                }
+                var parsed = JSON.parse(value);
+                return parsed == null ? defaultValue : parsed;
+            } catch (e) {
+                return defaultValue;
+            }
+        }
+        function __init__restoreLastSidebarState() {
+            var isMobile = window.matchMedia("(max-width: 600px)").matches;
+            if (isMobile) {
+                // Init last state if not mobile
+                return;
+            }
+            var sidebarState = __init__getSidebarState(true);
+            var book = document.querySelector(".book");
+            // Show sidebar if it enabled
+            if (sidebarState && book) {
+                book.classList.add("without-animation", "with-summary");
+            }
+        }
+
+        try {
+            __init__restoreLastSidebarState();
+        } finally {
+            var book = document.querySelector(".book");
+            book.classList.remove("honkit-cloak");
+        }
+    </script>
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../gitbook/gitbook-plugin-collapsible-menu/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-ga/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-github/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-github-buttons/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
