@@ -48,12 +48,12 @@
       "token": "x"
     },
     "github": {
-            "url": "https://github.com/yamauchi-inochu/learning"
+            "url": "https://github.com/yamauchi-inochu/homepage"
         },
         "github-buttons": {
          "buttons": [{
            "user": "yamauchi-inochu",
-           "repo": "learning",
+           "repo": "homepage",
            "type": "star",
            "size": "small",
            "count": true

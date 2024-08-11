@@ -2,6 +2,8 @@
 
 ## Profile
 
+![img](./img/yama.png)
+
 ### Information
 山内啓之 / Hiroyuki Yamauchi
 
