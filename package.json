@@ -1,5 +1,5 @@
 {
-  "name": "test",
+  "name": "The Yamauchi Lab",
   "version": "1.0.0",
   "keywords": [
     "GIS",
@@ -23,14 +23,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gis-oer/gis-oer.git"
+    "url": "git+https://github.com/yamauchi-inochu/homepage.git"
   },
   "author": "GIS Open Educational Resources WG",
   "bugs": {
-    "url": "https://github.com/yamauchi-inochu/learning/issues"
+    "url": "https://github.com/yamauchi-inochu/homepage/issues"
   },
   "license": "CC-BY-SA-NC-4.0",
-  "homepage": "https://github.com/yamauchi-inochu/learning#readme",
+  "homepage": "https://github.com/yamauchi-inochu/homepage#readme",
   "dependencies": {
     "gitbook-plugin-collapsible-menu": "^1.0.3",
     "gitbook-plugin-creativecommons": "^1.0.2",

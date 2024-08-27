@@ -41,6 +41,8 @@
 			- [課題④〜⑤](./learning/QGIS_3days/day3/tasks/t_18.md)
 	* [Mobile 3D scanning](./learning/3d_scanning/3d_scanning.md)
 	* [Leaflet for beginners](./learning/leaflet_ja/leaflet_ja.md)
+	* [地図演習](./learning/maps/README.md)
+	* [授業資料・過去問](./learning/lectures/README.md)
 * [Works](./works.md)
 * [Notes](./notes/readme.md)
 * [Contact](./contact.md)

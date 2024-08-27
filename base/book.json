@@ -1,6 +1,6 @@
 {
-    "title": "test",
-    "author": "test",
+    "title": "The Yamauchi Lab",
+    "author": "H.Yamauchi",
     "honkit": ">= 4.0.4",
     "language": "ja",
     "root": ".",
