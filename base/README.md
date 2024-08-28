@@ -21,8 +21,8 @@ Information regarding my works has been provided on X.
 - 2024年7月31日：3Dで地形を見る・動かす・つくる：Blenderと地理院地図を用いた授業デザイン（兵庫教育大学 令和６年度兵庫教育大学教員研修プログラム）にて、講師を務めました - 2024年7月31日
 - 2024年7月19日：奈良大学地理学科にて、「地理教育とアウトリーチでつなぐ地理学と社会」という題で特別講義をしました。
 
-### Details​
-詳細はResearchmapに記載しています。
+#### Details​
+詳細は[Researchmap](https://researchmap.jp/hyamauchi)に記載しています。
 
 ## Educational materials for GIS
 地理教育、地理情報科学と関連する教材を公開しています（(c) Hiroyuki Yamauchi CC BY SA NC 4.0）。誤記などが含まれている可能性があるため、利用者の責任でご利用ください。教材へのご意見は、[こちら](https://forms.gle/tDsLonT4gNqTkPP69)にお送りください
