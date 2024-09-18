@@ -1,0 +1,1256 @@
+
+<!DOCTYPE HTML>
+<html lang="ja" >
+    <head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-CS6VQ7FG4S"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-CS6VQ7FG4S');
+</script>
+
+        <meta charset="UTF-8">
+        <title>大地形:プレートと境界 · The Yamauchi Lab</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="HonKit 4.0.8">
+        <meta name="author" content="H.Yamauchi">
+        
+        
+    
+    <link rel="stylesheet" href="../../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../../gitbook/@honkit/honkit-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+        <link rel="stylesheet" href="../../../styles/website.css">
+        
+    
+
+        
+    
+    
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="5-2.html" />
+    
+    
+    <link rel="prev" href="../4/4.html" />
+    
+
+    <style>
+    @media only screen and (max-width: 640px) {
+        .book-header .hidden-mobile {
+            display: none;
+        }
+    }
+    </style>
+    <script>
+        window["gitbook-plugin-github-buttons"] = {"buttons":[{"user":"yamauchi-inochu","repo":"homepage","type":"star","size":"small","count":true}]};
+    </script>
+
+    
+        <link rel="shortcut icon" href='../../../img/favicon.ico' type="image/x-icon">
+    
+    
+        <link rel="bookmark" href='../../../img/favicon.ico' type="image/x-icon">
+    
+    
+        <link rel="apple-touch-icon" href='../../../img/apple-touch-icon.png'>
+    
+    
+        
+        <link rel="apple-touch-icon" sizes="120x120" href="../../../img/favicon.ico">
+        
+        <link rel="apple-touch-icon" sizes="180x180" href="../../../img/favicon.ico">
+        
+    
+
+    </head>
+    <body>
+        
+<div class="book honkit-cloak">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="検索ワードを入力" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../../">
+            
+                <a href="../../../">
+            
+                    
+                    The Yamauchi Lab
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../../../about.html">
+            
+                <a href="../../../about.html">
+            
+                    
+                    About
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    Materials
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../../ArcGISPro/">
+            
+                <a href="../../ArcGISPro/">
+            
+                    
+                    ArcGIS Pro
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1.1" data-path="../../ArcGISPro/1/1.html">
+            
+                <a href="../../ArcGISPro/1/1.html">
+            
+                    
+                    ArcGIS Proビギナーズマニュアル
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.1.2" data-path="../../ArcGISPro/2/2.html">
+            
+                <a href="../../ArcGISPro/2/2.html">
+            
+                    
+                    GISデータの取得
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.1.3" data-path="../../ArcGISPro/3/3.html">
+            
+                <a href="../../ArcGISPro/3/3.html">
+            
+                    
+                    空間データの座標変換
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.1.4" data-path="../../ArcGISPro/4/4.html">
+            
+                <a href="../../ArcGISPro/4/4.html">
+            
+                    
+                    ジオリファレンスとジオコーディング
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.1.5" data-path="../../ArcGISPro/5/5.html">
+            
+                <a href="../../ArcGISPro/5/5.html">
+            
+                    
+                    GISデータの作成
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.1.6" data-path="../../ArcGISPro/6/6.html">
+            
+                <a href="../../ArcGISPro/6/6.html">
+            
+                    
+                    基本的な空間解析
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.1.7" data-path="../../ArcGISPro/7/7.html">
+            
+                <a href="../../ArcGISPro/7/7.html">
+            
+                    
+                    領域分析と空間検索
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.1.8" data-path="../../ArcGISPro/8/8.html">
+            
+                <a href="../../ArcGISPro/8/8.html">
+            
+                    
+                    ポイントデータの集計とテーブル結合
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.1.9" data-path="../../ArcGISPro/9/9.html">
+            
+                <a href="../../ArcGISPro/9/9.html">
+            
+                    
+                    標高データの可視化と分析
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../../ArcGISOnline/">
+            
+                <a href="../../ArcGISOnline/">
+            
+                    
+                    ArcGIS Online
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.2.1" data-path="../../ArcGISOnline/1/ao1.html">
+            
+                <a href="../../ArcGISOnline/1/ao1.html">
+            
+                    
+                    地図の作成とオンライン公開
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="../../QGIS_3days/">
+            
+                <a href="../../QGIS_3days/">
+            
+                    
+                    QGIS:ja
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.3.1" data-path="../../QGIS_3days/day1/">
+            
+                <a href="../../QGIS_3days/day1/">
+            
+                    
+                    Day 1
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.3.1.1" data-path="../../QGIS_3days/day1/qgis.html">
+            
+                <a href="../../QGIS_3days/day1/qgis.html">
+            
+                    
+                    QGIS入門
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3.1.2" data-path="../../QGIS_3days/day1/tasks/t_qgis_entry.html">
+            
+                <a href="../../QGIS_3days/day1/tasks/t_qgis_entry.html">
+            
+                    
+                    課題①
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3.1.3" data-path="../../QGIS_3days/day1/07.html">
+            
+                <a href="../../QGIS_3days/day1/07.html">
+            
+                    
+                    データダウンロード
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.3.1.3.1" data-path="../../QGIS_3days/day1/tasks/t_07.html">
+            
+                <a href="../../QGIS_3days/day1/tasks/t_07.html">
+            
+                    
+                    課題②
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3.1.4" data-path="../../QGIS_3days/day1/12.html">
+            
+                <a href="../../QGIS_3days/day1/12.html">
+            
+                    
+                    ネットワーク分析
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3.1.5" data-path="../../QGIS_3days/day1/tasks/t_12.html">
+            
+                <a href="../../QGIS_3days/day1/tasks/t_12.html">
+            
+                    
+                    課題③
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3.2" data-path="../../QGIS_3days/day2/">
+            
+                <a href="../../QGIS_3days/day2/">
+            
+                    
+                    Day 2
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.3.2.1" data-path="../../QGIS_3days/day2/08_1.html">
+            
+                <a href="../../QGIS_3days/day2/08_1.html">
+            
+                    
+                    空間座標系の変換
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3.2.2" data-path="../../QGIS_3days/day2/tasks/t_08.html">
+            
+                <a href="../../QGIS_3days/day2/tasks/t_08.html">
+            
+                    
+                    課題①
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3.2.3" data-path="../../QGIS_3days/day2/11.html">
+            
+                <a href="../../QGIS_3days/day2/11.html">
+            
+                    
+                    基本的な空間解析
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3.2.4" data-path="../../QGIS_3days/day2/tasks/t_11.html">
+            
+                <a href="../../QGIS_3days/day2/tasks/t_11.html">
+            
+                    
+                    課題②〜③
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3.2.5" data-path="../../QGIS_3days/day2/13.html">
+            
+                <a href="../../QGIS_3days/day2/13.html">
+            
+                    
+                    領域分析（バッファ）
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3.2.6" data-path="../../QGIS_3days/day2/tasks/t_13.html">
+            
+                <a href="../../QGIS_3days/day2/tasks/t_13.html">
+            
+                    
+                    課題④
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3.2.7" data-path="../../QGIS_3days/day2/14.html">
+            
+                <a href="../../QGIS_3days/day2/14.html">
+            
+                    
+                    点データの分析
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3.2.8" data-path="../../QGIS_3days/day2/tasks/t_14.html">
+            
+                <a href="../../QGIS_3days/day2/tasks/t_14.html">
+            
+                    
+                    課題⑤
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3.3" data-path="../../QGIS_3days/day3/">
+            
+                <a href="../../QGIS_3days/day3/">
+            
+                    
+                    Day 3
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.3.3.1" data-path="../../QGIS_3days/day3/10a.html">
+            
+                <a href="../../QGIS_3days/day3/10a.html">
+            
+                    
+                    空間データの作成
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3.3.2" data-path="../../QGIS_3days/day3/tasks/t_10.html">
+            
+                <a href="../../QGIS_3days/day3/tasks/t_10.html">
+            
+                    
+                    課題①
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3.3.3" data-path="../../QGIS_3days/day3/15.html">
+            
+                <a href="../../QGIS_3days/day3/15.html">
+            
+                    
+                    地形情報の可視化
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3.3.4" data-path="../../QGIS_3days/day3/tasks/t_15.html">
+            
+                <a href="../../QGIS_3days/day3/tasks/t_15.html">
+            
+                    
+                    課題②
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3.3.5" data-path="../../QGIS_3days/day3/15_1.html">
+            
+                <a href="../../QGIS_3days/day3/15_1.html">
+            
+                    
+                    流域解析
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3.3.6" data-path="../../QGIS_3days/day3/tasks/t_15_1.html">
+            
+                <a href="../../QGIS_3days/day3/tasks/t_15_1.html">
+            
+                    
+                    課題③
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3.3.7" data-path="../../QGIS_3days/day3/18.html">
+            
+                <a href="../../QGIS_3days/day3/18.html">
+            
+                    
+                    空間補間
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3.3.8" data-path="../../QGIS_3days/day3/tasks/t_18.html">
+            
+                <a href="../../QGIS_3days/day3/tasks/t_18.html">
+            
+                    
+                    課題④〜⑤
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="../../3d_scanning/3d_scanning.html">
+            
+                <a href="../../3d_scanning/3d_scanning.html">
+            
+                    
+                    Mobile 3D scanning
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5" data-path="../../cloudcompare/cloudcompare.html">
+            
+                <a href="../../cloudcompare/cloudcompare.html">
+            
+                    
+                    CloudCompareと点群で3D
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.6" data-path="../../leaflet_ja/leaflet_ja.html">
+            
+                <a href="../../leaflet_ja/leaflet_ja.html">
+            
+                    
+                    Leaflet入門
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.7" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    GISでみる地形オープン教材
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.7.1" data-path="../1/1.html">
+            
+                <a href="../1/1.html">
+            
+                    
+                    地理の学習の意義
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.7.2" data-path="../2/2.html">
+            
+                <a href="../2/2.html">
+            
+                    
+                    地図の基礎
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.7.3" data-path="../3/3-1.html">
+            
+                <a href="../3/3-1.html">
+            
+                    
+                    地理情報の基礎
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.7.4" data-path="../4/4.html">
+            
+                <a href="../4/4.html">
+            
+                    
+                    GISと地形表現
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.3.7.5" data-path="5-1.html">
+            
+                <a href="5-1.html">
+            
+                    
+                    大地形:プレートと境界
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.7.5.1" data-path="5-2.html">
+            
+                <a href="5-2.html">
+            
+                    
+                    火山
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.7.5.2" data-path="5-3.html">
+            
+                <a href="5-3.html">
+            
+                    
+                    地震と津波
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.7.5.3" data-path="../6/6-2.html">
+            
+                <a href="../6/6-2.html">
+            
+                    
+                    山地の地形
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.7.6" data-path="../6/6-1.html">
+            
+                <a href="../6/6-1.html">
+            
+                    
+                    小地形
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.7.6.1" data-path="../6/6-3.html">
+            
+                <a href="../6/6-3.html">
+            
+                    
+                    河川の地形
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.7.6.2" data-path="../6/6-4.html">
+            
+                <a href="../6/6-4.html">
+            
+                    
+                    海岸の地形
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.7.6.3" data-path="../6/6-5.html">
+            
+                <a href="../6/6-5.html">
+            
+                    
+                    氷河地形
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.7.6.4" data-path="../6/6-6.html">
+            
+                <a href="../6/6-6.html">
+            
+                    
+                    乾燥地形
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.7.6.5" data-path="../6/6-7.html">
+            
+                <a href="../6/6-7.html">
+            
+                    
+                    カルスト地形
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.8" data-path="../../maps/">
+            
+                <a href="../../maps/">
+            
+                    
+                    地図演習
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.8.1" data-path="../../maps/map1/map1.md">
+            
+                <span>
+            
+                    
+                    GISと紙地図の違い
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.9" data-path="../../lectures/">
+            
+                <a href="../../lectures/">
+            
+                    
+                    授業資料・過去問
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../../../works.html">
+            
+                <a href="../../../works.html">
+            
+                    
+                    Works
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../../../notes/readme.html">
+            
+                <a href="../../../notes/readme.html">
+            
+                    
+                    Notes
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="../../../contact.html">
+            
+                <a href="../../../contact.html">
+            
+                    
+                    Contact
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://github.com/honkit/honkit" target="blank" class="gitbook-link">
+            HonKitで公開 
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../../.." >大地形:プレートと境界</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="大地形の形成">大地形の形成</h1>
+<h2 id="営力">営力</h2>
+<p> 世界地図や地球儀をみると、地球の表面がでこぼこしているのがわかります。このでこぼこは、自然の力である営力によって形成されました。<strong>営力</strong>には、地球内部の力による内的営力（地殻変動等）と、風雨、河川、氷河、波浪等の力による外的営力があります。地球の地表面には、大規模な平野、山脈、海溝などの大地形と、主として外的営力の影響をうけて発達する小地形に分けられます。</p>
+<h2 id="大地形の形成とプレート運動">大地形の形成とプレート運動</h2>
+<p>　地球は、下の図のように、核(外核と内核):D、下部マントル:C、上部マントル:B、地殻:Aのように構成されます。プレートは、地殻（陸は30~40km、海洋は約10kmの厚さ）と上部マントルの最上部数10kmを指します。</p>
+<p><img src="img/5-1-1.png" alt=""></img></p>
+<p><em>地球内部の構造</em></p>
+<blockquote>
+<p><a href="https://commons.wikimedia.org/wiki/File:Earth_layers_model.png" target="_blank">Earth layers model.png ©Linuxerist CC BY-SA 3.0</a>を加工し作成</p>
+</blockquote>
+<p>　世界には10枚程度のプレートがあり、下の図のように分布しています。プレートは、地球内部のマントル対流によりゆっくりと流動し、境界を形成します。大地形の発達を説明するこの理論を<strong>プレートテクトニクス</strong>といいます。
+<img src="img/5-1-2.png" alt=""></img></p>
+<p><em>主要なプレート(Public Domain)</em></p>
+<p>　かつての地球は、パンゲアとよばれる一つの地塊で、プレート運動によって現在の大陸となりました。よく見ると、アフリカの西側の海岸線と南アメリカの東側の海岸線がパズルのようにくっつきそうなのがわかります。<a href="https://www.youtube.com/watch?v=q-ng6YpxHxU&amp;feature=emb_title" target="_blank">Animated Maps: Tectonic Plate Movement</a>では、5億5千万年前から現在までのプレートの移動を動画でみることができます。<br></br>
+　境界には、下の図のように、<strong>狭まる境界、広がる境界、ずれる境界</strong>の3つがあります。狭まる境界は、プレート同士の力が→←のように働くものを指します。広がる境界は、プレート同士の力が←→のように働くものを指します。ずれる境界は、プレート同士の力が↑↓のように働くものを指します。狭まる境界では、プレート同士がぶつかり合います。海洋プレートが沈み込む範囲を<strong>沈み込み帯</strong>とよび、大陸プレート同士が衝突し山脈を形成する範囲を衝突帯とよびます。広がる境界は、プレート同士が離れ合う範囲です。海底では、マントルがわきだし海底に<strong>海嶺</strong>とよばれる大山脈が形成されます。東アフリカの大地溝帯や紅海もこの種の境界と考えられています。ずれる境界は、プレートとプレートが横にずれあう境界で、<strong>サンアンドレアス断層</strong>が有名です。サンアンドレアス断層は、カリフォルニア州からメキシコまで縦断しており、その総延長は約1300kmです。それでは、実際にGISを用いて、境界をみてみましょう。</p>
+<p><img src="img/5-1-3.png" alt=""></img>
+<em>プレートの境界(原図は、Public Domain)</em></p>
+<h3 id="gisで境界を見てみよう">GISで境界を見てみよう!</h3>
+<div class="iframe-parent">
+<center><iframe width="700" height="510" src="https://gg-oer.github.io/maps/cesium/plate.html" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></center></div> 
+
+<p><a href="https://gg-oer.github.io/maps/cesium/plate.html" target="_blank">地図のみ表示：スマホユーザー向け</a></p>
+<h2 id="造山帯と安定陸塊">造山帯と安定陸塊</h2>
+<p>　地球の地形は、過去から現在までの造山運動によって、<strong>新期造山帯</strong>、<strong>古期造山帯</strong>、<strong>安定陸塊</strong>に分類できます。下の図の赤線は、新期造山帯（中生代・新生代以降の造山運動による）の分布を示します。新期造山帯は、アルプス・ヒマラヤ造山帯と環太平洋造山帯等があります。この周辺は、地殻変動が活発で、地震が頻発したり、火山が多く分布します。下の図の青線は、古期造山帯（古生代〜中生代の造山運動による）を示しています。古期造山帯は、かつてのプレート境界や運動によって形成されたまのです。現在、内的営力の影響は小さくなったもの、外的営力の影響を受け続けるため、比較的なだらかな山地となります。北米のアパラチア山脈、ユーラシア大陸の中央を縦断するウラル山脈等が、古期造山帯にあたる。</p>
+<p><img src="img/5-1-4.png" alt=""></img></p>
+<p><em>新期造山帯、古期造山帯、楯状地、卓状地の分布図</em> <br></br>※上の図は、GISの図に置き換える予定です 。現在は用意していないため、教科書等で確認してください。</p>
+<p>過去から現在を通じて、地殻変動が不活発な地域の地形を、安定陸塊とよびます。安定陸塊では、水平に堆積した地層がゆっくりと隆起（造陸運動）した台地や平野がみられます（<strong>卓状地</strong>）。卓状地には、北アメリカの中央平原、中央シベリア高原、東ヨーロッパ平原などがあたります。パリ盆地にのように、堆積した地層が傾斜しかつ、地層によって硬さが異なる場合は、侵食の度合いに差が生じるため、<strong>ケスタ</strong>とよばれる地形になります。ハドソン湾やバルト海の周辺では、西洋の楯を伏せたような地形（<strong>楯状地</strong>）が分布します。楯状地は、プレート境界から離れており、先カンブリア時代の地層が露出しています。</p>
+<p><img src="img/5-1-5.png" alt=""></img></p>
+<p><em>ケスタ地形の概観図（Public Domain）</em></p>
+<h2 id="侵食輪廻">侵食輪廻</h2>
+<p>　安定陸塊や造山帯では、外的営力による侵食をうけ、構造平野（安定陸塊のうち侵食によって形成された平野）や準平原（急峻な山脈等が平原化する）が形成されます。地形が隆起し、侵食をうけ、準平原が発達する一連のプロセスを<strong>侵食輪廻</strong>とよびます。</p>
+<h2 id="地殻変動と災害">地殻変動と災害</h2>
+<p>　下の地図は、地震と火山の分布を示したものです。狭まる境界やその周辺では、地震が頻発し、火山が発達しています。地震の震源地が海底の場合、津波を発生させ沿岸の街に被害を及ぼすことがあります。地震には、内陸の断層によるものもあります。火山、地震、津波については、次の教材で解説しています。</p>
+<p><img src="img/5-1-6.png" alt=""></img></p>
+<p><em>地震と火山の分布（Public Domain）</em></p>
+<h3 id="gisで火山と地震の分布を確認しましょう。">GISで火山と地震の分布を確認しましょう。</h3>
+<div class="iframe-parent">
+<center><iframe width="700" height="510" src="https://gg-oer.github.io/maps/cesium/eq_v.html" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></center></div>
+
+<p><a href="https://gg-oer.github.io/maps/cesium/eq_v.html" target="_blank">地図のみ表示：スマホユーザー向け</a></p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="../4/4.html" class="navigation navigation-prev " aria-label="Previous page: GISと地形表現">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="5-2.html" class="navigation navigation-next " aria-label="Next page: 火山">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"大地形:プレートと境界","level":"1.3.7.5","depth":3,"next":{"title":"火山","level":"1.3.7.5.1","depth":4,"path":"learning/gg-oer/5/5-2.md","ref":"./learning/gg-oer/5/5-2.md","articles":[]},"previous":{"title":"GISと地形表現","level":"1.3.7.4","depth":3,"path":"learning/gg-oer/4/4.md","ref":"./learning/gg-oer/4/4.md","articles":[]},"articles":[{"title":"火山","level":"1.3.7.5.1","depth":4,"path":"learning/gg-oer/5/5-2.md","ref":"./learning/gg-oer/5/5-2.md","articles":[]},{"title":"地震と津波","level":"1.3.7.5.2","depth":4,"path":"learning/gg-oer/5/5-3.md","ref":"./learning/gg-oer/5/5-3.md","articles":[]},{"title":"山地の地形","level":"1.3.7.5.3","depth":4,"path":"learning/gg-oer/6/6-2.md","ref":"./learning/gg-oer/6/6-2.md","articles":[]}],"dir":"ltr"},"config":{"plugins":["-sharing","-sharing-plus","collapsible-menu","creativecommons","favicon","github","github-buttons"],"root":".","styles":{"website":"styles/website.css"},"pluginsConfig":{"collapsible-menu":{},"github":{"url":"https://github.com/yamauchi-inochu/homepage"},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"favicon":{"shortcut":"./img/favicon.ico","bookmark":"./img/favicon.ico","appleTouch":"./img/apple-touch-icon.png","appleTouchMore":{"120x120":"./img/favicon.ico","180x180":"./img/favicon.ico"}},"github-buttons":{"buttons":[{"user":"yamauchi-inochu","repo":"homepage","type":"star","size":"small","count":true}]},"creativecommons":{},"sharing":{"qq":false,"all":["facebook","google"],"douban":false,"facebook":false,"weibo":false,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":true,"messenger":false,"line":false,"vk":false,"pocket":false,"google":false,"viber":false,"stumbleupon":false,"qzone":false,"linkedin":false},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"H.Yamauchi","honkit":">= 4.0.4","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"The Yamauchi Lab","language":"ja","gitbook":"*"},"file":{"path":"learning/gg-oer/5/5-1.md","mtime":"2022-03-28T05:34:17.011Z","type":"markdown"},"gitbook":{"version":"4.0.8","time":"2024-09-18T13:39:52.469Z"},"basePath":"../../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <noscript>
+        <style>
+            .honkit-cloak {
+                display: block !important;
+            }
+        </style>
+    </noscript>
+    <script>
+        // Restore sidebar state as critical path for prevent layout shift
+        function __init__getSidebarState(defaultValue){
+            var baseKey = "";
+            var key = baseKey + ":sidebar";
+            try {
+                var value = localStorage[key];
+                if (value === undefined) {
+                    return defaultValue;
+                }
+                var parsed = JSON.parse(value);
+                return parsed == null ? defaultValue : parsed;
+            } catch (e) {
+                return defaultValue;
+            }
+        }
+        function __init__restoreLastSidebarState() {
+            var isMobile = window.matchMedia("(max-width: 600px)").matches;
+            if (isMobile) {
+                // Init last state if not mobile
+                return;
+            }
+            var sidebarState = __init__getSidebarState(true);
+            var book = document.querySelector(".book");
+            // Show sidebar if it enabled
+            if (sidebarState && book) {
+                book.classList.add("without-animation", "with-summary");
+            }
+        }
+
+        try {
+            __init__restoreLastSidebarState();
+        } finally {
+            var book = document.querySelector(".book");
+            book.classList.remove("honkit-cloak");
+        }
+    </script>
+    <script src="../../../gitbook/gitbook.js"></script>
+    <script src="../../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-collapsible-menu/plugin.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-github/plugin.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-github-buttons/plugin.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

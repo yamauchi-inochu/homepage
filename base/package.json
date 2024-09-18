@@ -25,7 +25,7 @@
     "type": "git",
     "url": "git+https://github.com/yamauchi-inochu/homepage.git"
   },
-  "author": "GIS Open Educational Resources WG",
+  "author": "h.yamauchi",
   "bugs": {
     "url": "https://github.com/yamauchi-inochu/homepage/issues"
   },
@@ -35,7 +35,6 @@
     "gitbook-plugin-collapsible-menu": "^1.0.3",
     "gitbook-plugin-creativecommons": "^1.0.2",
     "gitbook-plugin-favicon": "^0.0.2",
-    "gitbook-plugin-ga": "^1.0.1",
     "gitbook-plugin-github": "^2.0.0",
     "gitbook-plugin-github-buttons": "^3.0.0",
     "gitbook-plugin-sharing-plus": "^0.0.2"

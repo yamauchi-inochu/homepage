@@ -17,7 +17,7 @@ Information regarding my works has been provided on X.
 
 ### Main news
 - 論文：[Evaluation of GIScience Exercise Using Online Educational Materials for Japanese University Students](https://www.tandfonline.com/doi/full/10.1080/00330124.2024.2341062)がAAGのThe Professional Geographerに掲載されました。
-- 2024年9月14日：日本地理学会で「生徒・学生を対象とした「地理」の好感度に関する予察的調査」という題の学会発表を行います。
+- 2024年9月14日：日本地理学会で「生徒・学生を対象とした「地理」の好感度に関する予察的調査」という題の学会発表を行いました。
 - 2024年8月4日：ひらめき☆ときめきサイエンス 最新のデジタル地図技術を用いて地形と防災情報を分析しよう！ （課題代表者：小口 高）にて、講師を務めました。
 - 2024年7月31日：[3Dで地形を見る・動かす・つくる：Blenderと地理院地図を用いた授業デザイン](https://www.hyogo-u.ac.jp/facility/create/training/program/#program4-2)（兵庫教育大学 令和６年度兵庫教育大学教員研修プログラム）にて、講師を務めました。
 - 2024年7月30日：[事例から学ぶ多機関連携－関係構築のコツ](https://www.hyogo-u.ac.jp/facility/create/training/program/)（兵庫教育大学 令和６年度兵庫教育大学教員研修プログラム）にて、講師を務めました。
