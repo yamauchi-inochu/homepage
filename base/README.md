@@ -16,6 +16,7 @@ Information regarding my works has been provided on X.
 <a class="twitter-timeline" href="https://twitter.com/hyama_gisc?ref_src=twsrc%5Etfw">Tweets by hyama_gisc</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ### Main news
+- 2024年10月：第33回地理情報システム学会学術研究発表大会にて、ポスターセッション賞を受賞しました。本発表は、東京都市大の秋山教授らとの共同発表で、発表題は、「ドローンで撮影した画像から生成したバーチャルリアリティ（VR）空間を用いた空き家現地調査の効率化の検討」です。
 - 論文：[Evaluation of GIScience Exercise Using Online Educational Materials for Japanese University Students](https://www.tandfonline.com/doi/full/10.1080/00330124.2024.2341062)がAAGのThe Professional Geographerに掲載されました。
 - 2024年9月14日：日本地理学会で「生徒・学生を対象とした「地理」の好感度に関する予察的調査」という題の学会発表を行いました。
 - 2024年8月4日：ひらめき☆ときめきサイエンス 最新のデジタル地図技術を用いて地形と防災情報を分析しよう！ （課題代表者：小口 高）にて、講師を務めました。

@@ -22,8 +22,8 @@
 - 2015年6月ー2020年3月　東京大学空間情報科学研究センター（特任研究員）
 
 ## Degree
-- 2023年3月　博士（環境学）東京大学（2023年3月）/ Ph.D. in Environment Studies (The University of Tokyo)
-- 2013年4月　修士（文学）奈良大学（2015年3月） / Master of Letters (Nara University)
+- 博士（環境学）東京大学（2023年3月）/ Ph.D. in Environment Studies (The University of Tokyo)
+- 修士（文学）奈良大学（2015年3月） / Master of Letters (Nara University)
 
 ## Achievements
 

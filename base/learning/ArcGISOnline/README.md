@@ -1,1 +1,2 @@
-now preparing
+# README
+この教材は有償のArcGIS onlineの使用法をGIS初心者向けに紹介するものです。
