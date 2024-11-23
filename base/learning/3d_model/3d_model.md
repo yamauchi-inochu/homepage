@@ -8,7 +8,7 @@
 
 -----
 
-[実習用データ](https://github.com/yamauchi-inochu/homepage/learning/raw/main/data/3d_data.zip)
+[実習用データ](https://github.com/yamauchi-inochu/homepage/raw/refs/heads/main/learning/data/3d_data.zip)
 
 ## MeshLabを用いたモデル処理と書き出し
 MeshLabは、オープンソースの3Dメッシュ処理ソフトである。[MeshLabのwebページ](https://www.meshlab.net/#download)からOSにあわせてソフトをインストールする。インストール後、ソフトを起動する。
@@ -64,24 +64,3 @@ function setup3dhop() {
 
 上書きして、表示すれば次のように表示される。
 ![img](./img/3d-8.png)
-
-ローカルサーバーがない場合は、下記のURLを使用する。
-
-```JavaScript
-<script type="text/javascript">
-var presenter = null;
-
-function setup3dhop() {
-	presenter = new Presenter("draw-canvas");
-
-	presenter.setScene({
-		meshes: {
-			"3d" : { url: "https://yamauchi-inochu.github.io/homepage/learning/data/3d_data/suigaihi.nxz" }
-		},
-		modelInstances : {
-			"Model1" : { mesh : "3d" }
-		}
-	});
-}
-
-```

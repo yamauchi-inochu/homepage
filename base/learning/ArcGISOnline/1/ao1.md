@@ -1,7 +1,7 @@
 # ArcGIS onlineを用いたWeb地図の作成
 この資料では、ArcGIS onlineでWeb地図を作成し、公開する手法について解説します。ここで作成するWeb地図は、ベースマップの上にポイントデータが配置されているもので、各ポイントをクリックすると写真が表示されるようなものを想定しています。この実習には、ArcGIS onlineのアカウントやその各種機能がアクティブになっている必要があります。実習を開始する前に、下記のデータを入手してください。
 
-[実習用データ](https://github.com/yamauchi-inochu/homepage/learning/raw/main/data/ao-1.zip)
+[実習用データ](https://github.com/yamauchi-inochu/homepage/raw/refs/heads/main/learning/data/ao-1.zip)
 >　本データは、立命館大学アートリサーチセンターにて、公開されている。ARC景観型写真ポータルデータベースから作成しました。
 
 ## ベース地図の作成
