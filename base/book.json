@@ -7,7 +7,7 @@
     "plugins": [
         "-sharing",
         "-sharing-plus",
-        "collapsible-menu",
+        "toggle-chapters",
         "creativecommons",
         "favicon",
         "github",

@@ -32,11 +32,11 @@
   "license": "CC-BY-SA-NC-4.0",
   "homepage": "https://github.com/yamauchi-inochu/homepage#readme",
   "dependencies": {
-    "gitbook-plugin-collapsible-menu": "^1.0.3",
     "gitbook-plugin-creativecommons": "^1.0.2",
     "gitbook-plugin-favicon": "^0.0.2",
     "gitbook-plugin-github": "^2.0.0",
     "gitbook-plugin-github-buttons": "^3.0.0",
-    "gitbook-plugin-sharing-plus": "^0.0.2"
+    "gitbook-plugin-sharing-plus": "^0.0.2",
+    "gitbook-plugin-toggle-chapters": "^0.0.3"
   }
 }
