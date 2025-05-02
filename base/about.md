@@ -14,7 +14,7 @@
 	-  Center for Spatial Information Science, the University of Tokyo / Visiting Researcher
   
 ### Research and Education History
-- 2025年10月ー　兵庫教育大学校教育学部（非常勤講師）
+- 2025年10月ー　兵庫教育大学学校教育学部（非常勤講師）
 - 2024年10月ー　京都教育大学教育学部（非常勤講師）
 - 2024年4月ー　佛教大学歴史学部（非常勤講師）
 - 2023年4月ー2023年8月　東京大学空間情報科学研究センター（特任研究員）

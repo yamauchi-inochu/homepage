@@ -63,6 +63,6 @@
 		* [GISと紙地図の違い](./learning/maps/map1.md)
 		* [等高線を用いた尾根と谷の判読](./learning/maps/map2.md)
 	* [授業資料・過去問](./learning/lectures/README.md)
-* [Works](./works.md)
+* [Educational works](./educational_works.md)
 * [Notes](./notes/readme.md)
 * [Contact](./contact.md)
