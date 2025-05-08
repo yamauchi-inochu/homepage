@@ -11,7 +11,6 @@
 
   gtag('config', 'G-CS6VQ7FG4S');
 </script>
-
         <meta charset="UTF-8">
         <title>空間データの座標変換 · The Yamauchi Lab</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -1156,7 +1155,7 @@
 <img src="img/3-6.png" alt="img"></img></p>
 <p><a href="3.html#Menu">▲ Back to Menu</a></p>
 <h2 id="投影座標系の変換">投影座標系の変換</h2>
-<p>今回は書き出した緯度経度のデータを平面直角座標系の<code>JGD2011 Japan zone 6</code>に変換する。<code>Analysis &gt; Tools</code>の<code>Project</code>から以下の手順を実行する。GISでは多くの場合、投影座標系に変換してからデータ処理を行うため、一連の作業の重要度は高い。
+<p>今回は書き出した緯度経度のデータを平面直角座標系の<code>JGD2011 Japan zone 6</code>に変換する。<code>Analysis &gt; Tools</code>の<code>Project</code>から以下の手順を実行する。GISでは多くの場合、投影座標系に変換してからデータ処理を行うため、一連の作業の重要度は高い。投影座標系は、epsgコードの入力以外にも<code>各国の座標系＞日本</code>からも探すことができる。また、<code>JGD 2011</code>のように入力すれば、候補が検索できる。
 <img src="img/3-7.png" alt="img"></img></p>
 <ol>
 <li>変換するデータを指定する</li>
@@ -1175,7 +1174,7 @@
 <p><a href="3.html#Menu">▲ Back to Menu</a></p>
 <h2 id="課題">課題</h2>
 <h3 id="課題1">課題1</h3>
-<p>東京23区コンビニのデータをJGD2011の平面直角座標系へ投影変換し、地図をレイアウトしてください。ミスを避けるために、課題（地域）ごとにArcGISのファイルを作成することが望ましいです。</p>
+<p>東京23区コンビニのデータをJGD2011の平面直角座標系（<code>6677</code>）へ投影変換し、地図をレイアウトしてください。ミスを避けるために、課題（地域）ごとにArcGISのファイルを作成することが望ましいです。</p>
 <h4 id="課題用データ">課題用データ</h4>
 <p><a href="https://github.com/gis-oer/datasets/raw/master/tasks/tokyo23ku-cvs_task.zip" target="_blank">東京23区コンビニ</a>をダウンロードしてください。</p>
 <h4 id="課題1の完成例">課題1の完成例</h4>
@@ -1228,7 +1227,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"空間データの座標変換","level":"1.3.1.3","depth":3,"next":{"title":"ジオリファレンスとジオコーディング","level":"1.3.1.4","depth":3,"path":"learning/ArcGISPro/4/4.md","ref":"./learning/ArcGISPro/4/4.md","articles":[]},"previous":{"title":"GISデータの取得","level":"1.3.1.2","depth":3,"path":"learning/ArcGISPro/2/2.md","ref":"./learning/ArcGISPro/2/2.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-sharing","-sharing-plus","toggle-chapters","creativecommons","favicon","github","github-buttons"],"root":".","styles":{"website":"styles/website.css"},"pluginsConfig":{"github":{"url":"https://github.com/yamauchi-inochu/homepage"},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"favicon":{"shortcut":"img/favicon.ico","bookmark":"img/favicon.ico","appleTouch":"img/apple-touch-icon.png","appleTouchMore":{"120x120":"img/favicon.ico","180x180":"img/favicon.ico"}},"github-buttons":{"buttons":[{"user":"yamauchi-inochu","repo":"homepage","type":"star","size":"small","count":true}]},"creativecommons":{},"sharing":{"qq":false,"all":["facebook","google"],"douban":false,"facebook":false,"weibo":false,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":true,"messenger":false,"line":false,"vk":false,"pocket":false,"google":false,"viber":false,"stumbleupon":false,"qzone":false,"linkedin":false},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"toggle-chapters":{}},"theme":"default","author":"H.Yamauchi","honkit":">= 4.0.4","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"The Yamauchi Lab","language":"ja","gitbook":"*"},"file":{"path":"learning/ArcGISPro/3/3.md","mtime":"2025-05-08T04:12:58.118Z","type":"markdown"},"gitbook":{"version":"4.0.8","time":"2025-05-08T04:13:41.006Z"},"basePath":"../../..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"空間データの座標変換","level":"1.3.1.3","depth":3,"next":{"title":"ジオリファレンスとジオコーディング","level":"1.3.1.4","depth":3,"path":"learning/ArcGISPro/4/4.md","ref":"./learning/ArcGISPro/4/4.md","articles":[]},"previous":{"title":"GISデータの取得","level":"1.3.1.2","depth":3,"path":"learning/ArcGISPro/2/2.md","ref":"./learning/ArcGISPro/2/2.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-sharing","-sharing-plus","toggle-chapters","creativecommons","favicon","github","github-buttons"],"root":".","styles":{"website":"styles/website.css"},"pluginsConfig":{"github":{"url":"https://github.com/yamauchi-inochu/homepage"},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"favicon":{"shortcut":"img/favicon.ico","bookmark":"img/favicon.ico","appleTouch":"img/apple-touch-icon.png","appleTouchMore":{"120x120":"img/favicon.ico","180x180":"img/favicon.ico"}},"github-buttons":{"buttons":[{"user":"yamauchi-inochu","repo":"homepage","type":"star","size":"small","count":true}]},"creativecommons":{},"sharing":{"qq":false,"all":["facebook","google"],"douban":false,"facebook":false,"weibo":false,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":true,"messenger":false,"line":false,"vk":false,"pocket":false,"google":false,"viber":false,"stumbleupon":false,"qzone":false,"linkedin":false},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"toggle-chapters":{}},"theme":"default","author":"H.Yamauchi","honkit":">= 4.0.4","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"The Yamauchi Lab","language":"ja","gitbook":"*"},"file":{"path":"learning/ArcGISPro/3/3.md","mtime":"2025-05-08T13:10:23.640Z","type":"markdown"},"gitbook":{"version":"4.0.8","time":"2025-05-08T13:10:42.693Z"},"basePath":"../../..","book":{"language":""}});
         });
     </script>
 </div>
