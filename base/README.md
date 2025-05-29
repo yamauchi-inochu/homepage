@@ -21,3 +21,6 @@ Information regarding my works has been providing on X.
 
 ## Educational materials for GIS and Geography
 地理教育、地理情報科学と関連する教材を公開しています（(c) Hiroyuki Yamauchi CC BY SA NC 4.0）。一部の教材は異なるCCライセンスで提供しています。誤記などが含まれている可能性があるため、利用者の責任でご利用ください。教材へのご意見は、[こちら](https://forms.gle/tDsLonT4gNqTkPP69)にお送りください
+
+## 利用規約
+利用規約をご確認のうえ、本Webサイトを閲覧、ご利用ください。

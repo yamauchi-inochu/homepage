@@ -65,4 +65,5 @@
 	* [授業資料・過去問](./learning/lectures/README.md)
 * [Educational works](./educational_works.md)
 * [Notes](./notes/readme.md)
+* [Terms of use](./policy.md)
 * [Contact](./contact.md)
