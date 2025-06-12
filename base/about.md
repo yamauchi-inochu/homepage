@@ -30,8 +30,10 @@
 
 ### Peer-Reviewed Journals
 
-- [10] Takuro Ogura, Kazuyuki Shimamoto, Toshiaki Mizuno, Daisuke Katayama, **Hiroyuki Yamauchi**, Tsuyoshi Hattanji (2025) Identification of traditional flood control facilities concealed in the riparian forest: a case study of the Echi River, central Japan. Progress in Earth and Planetary Science _(in press)_
-- [9] **Hiroyuki Yamauchi**, Jiali Song, Takashi Oguchi, Takuro Ogura, Kotaro Iizuka (2025) [Evaluating Digital Map Utilization and Interpretation Skills of Students.](https://www.mdpi.com/2220-9964/14/2/76) ISPRS International Journal of Geo-Information, 14(2) 76.
+- [11] Takuro Ogura, Hiroyuki Yamauchi, Tatsuto Aoki, Nobuhisa Matta, Kotaro Iizuka, Yoshiya Iwasa, Takayuki Takahashi, Kiyomi Hayashi, Tsuyoshi Hattanji, Takashi Oguchi (2025) High-definition topographic archiving and educational applications in regions affected by the 2024 Noto Peninsula Earthquake. Journal of Disaster Research **in press**
+
+- [10] Takuro Ogura, Kazuyuki Shimamoto, Toshiaki Mizuno, Daisuke Katayama, **Hiroyuki Yamauchi**, Tsuyoshi Hattanji (2025) Identification of traditional flood control facilities concealed in the riparian forest: a case study of the Echi River, central Japan. Progress in Earth and Planetary Science 12 41
+- [9] **Hiroyuki Yamauchi**, Jiali Song, Takashi Oguchi, Takuro Ogura, Kotaro Iizuka (2025) [Evaluating Digital Map Utilization and Interpretation Skills of Students.](https://www.mdpi.com/2220-9964/14/2/76) ISPRS International Journal of Geo-Information 14(2) 76.
 - [8] **Hiroyuki Yamauchi**, Takashi Oguchi, Kotaro Iizuka, Yuichi S. Hayakawa, Toshikazu Seto (2024) [Evaluation of GIScience exercise using online educational materials for Japanese university students](https://www.tandfonline.com/doi/full/10.1080/00330124.2024.2341062). The Professional Geographer 76(4) 490-503.
 - [7] Jiali Song, **Hiroyuki Yamauchi**, Takashi Oguchi, Takuro Ogura, Yosuke Nakamura, Jipeng Wang (2023) [Effects of web geographic information system (GIS) technology and curriculum approaches on education for disaster risk reduction](https://egusphere.copernicus.org/preprints/2023/egusphere-2023-1036/). Natural Hazards and Earth System Sciences, 23(11), 3617-3634.
 - [6] **山内啓之**, 小倉拓郎, 中村洋介, 宋 佳麗, 小口 高（2023）[地形教育のための空撮全天球画像を用いた教材の開発と評価](https://www.jstage.jst.go.jp/article/newgeo/71/2/71_1/_article/-char/ja).　新地理 71(2), 1-11.

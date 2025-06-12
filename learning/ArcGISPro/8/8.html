@@ -1139,7 +1139,7 @@
 <li><a href="#テーブル結合">テーブル結合</a></li>
 </ul>
 <p><strong>実習用データ</strong></p>
-<p>実習をはじめる前に、<a href="https://github.com/gis-oer/datasets/raw/master/s/tokyo_s.zip" target="_blank">tokyo</a>と<a href="https://github.com/yamauchi-inochu/homepage/raw/refs/heads/main/learning/data/tokyotogikai.zip" target="_blank">tokyotogikai</a>をダウンロードしてください。今回は、<code>togikai_23ku_202310.xlsx</code>、<code>tokyo_23ku_s.shp</code>、<code>cvs_jgd2011_s.shp</code>を使用します。実習前に、後2者のデータを平面直角座標系に変換してください。</p>
+<p>実習をはじめる前に、<a href="https://github.com/gis-oer/datasets/raw/master/s/tokyo_s.zip" target="_blank">tokyo</a>と<a href="https://github.com/yamauchi-inochu/homepage/raw/refs/heads/main/learning/data/tokyotogikai.zip" target="_blank">tokyotogikai</a>をダウンロードしてください。次に、<code>tokyo</code>のファイルの中に解凍した<code>tokyotogikai</code>を入れてください。今回は、<code>togikai_23ku_202310.xlsx</code>、<code>tokyo_23ku_s.shp</code>、<code>cvs_jgd2011_s.shp</code>を使用します。実習前に、後2者のデータを平面直角座標系に変換してください。</p>
 <hr></hr>
 <h2 id="点の分布密度">点の分布密度</h2>
 <p>　下の図は、GISで東京都のコンビニエンスストアの分布を示したものです。この図を見ると点が密集している地域とそうでない地域があることはわかります。しかし、地域ごとの密度の違いはよくわかりません。そこで、以下ではArcGIS Proでメッシュ（方形区）や行政区画ごとに密度を可視化する手法を解説します。
@@ -1161,22 +1161,12 @@
 <img src="img/8-4.png" alt="img"></img></p>
 <p>以下の手順で、メッシュ内のポイント数を計算する。
 <img src="img/8-5.png" alt="img"></img></p>
-<p><img src="img/8-6.png" alt="img"></img></p>
-<p><img src="img/8-7.png" alt="img"></img></p>
 <ol>
 <li>Target Featuresを指定（今回はメッシュのポリゴンデータ）</li>
 <li>Join Featuresを指定（今回は点データ）</li>
 <li>出力レイヤを指定</li>
 <li><code>Join one to one</code>を指定</li>
 <li><code>Keep All Target Features</code>にチェック</li>
-<li><code>Add Fields &gt; Add Empty Field</code>を選択</li>
-<li><code>NewField</code>を選択</li>
-<li><code>Edit</code>を選択</li>
-<li><code>NewField</code>を選択</li>
-<li><code>Type</code>を<code>Big Integer(64 bit integer)</code>とする</li>
-<li>点データを選択</li>
-<li><code>OBJECTID</code>を指定</li>
-<li><code>OK</code>をクリック</li>
 <li><code>Run</code>を実行すると、属性テーブルにJoin_Countのフィールドが作成される。ソートすれば、降順に並び替えられる</li>
 </ol>
 <h3 id="メッシュ内のポイント数で色分け">メッシュ内のポイント数で色分け</h3>
@@ -1195,7 +1185,8 @@
 <h2 id="行政区内の点密度">行政区内の点密度</h2>
 <p>　同じ手法で、行政区画のポリゴンを利用し、行政区ごとの点密度を計算することもできる。
 <img src="img/8-10.png" alt="img"></img></p>
-<p>シンボルも示したい情報に合わせて設定できる。
+<h3 id="シンボルの調整">シンボルの調整</h3>
+<p>　シンボルも示したい情報に合わせて設定できる。ここでは、行政界のレイヤに同じ行政界のレイヤを重ね、チャートを表示している。
 <img src="img/8-11.png" alt="img"></img></p>
 <p>※　行政区域のように面積が異なる場合は、数ではなく、属性テーブルで算出した割合の値を使うこともある。</p>
 <p><a href="8.html#Menu">▲Menu</a></p>
@@ -1217,14 +1208,12 @@
 <ol>
 <li>コンビニのデータを指定</li>
 <li>結合するフィールドを選択（今回は<code>name</code>）</li>
-<li>エクセルファイルとシート名を選択</li>
+<li>エクセルファイルとシート名を選択（tokyotogikaiのフォルダー内エクセルを選択し、次にシート名を指定）</li>
 <li>結合するフィールドを選択（今回は<code>District</code>）</li>
 <li><code>Run</code>を実行すると結果が確認できる</li>
 </ol>
 <p>以下のようにシンボルを変えることもできる。
 <img src="img/8-16.png" alt="img"></img></p>
-<p><a href="8.html#Menu">▲Menu</a></p>
-<p><strong>ここまで実施した内容から二つ選びスタイルを整えた地図画像を一枚作成する(方位、スケール、凡例)</strong></p>
 <p><a href="8.html#Menu">▲Menu</a></p>
 <h1 id="課題">課題</h1>
 <p>　GISで点データの密度を可視化する場合、分析に用いる空間オブジェクトの形状や大きさを考慮する必要があります。この実習では、メッシュによる集計法を用いて、点データを視覚的に分析します。</p>
@@ -1284,7 +1273,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"ポイントデータの集計とテーブル結合","level":"1.3.1.8","depth":3,"next":{"title":"標高データの可視化と分析","level":"1.3.1.9","depth":3,"path":"learning/ArcGISPro/9/9.md","ref":"./learning/ArcGISPro/9/9.md","articles":[]},"previous":{"title":"領域分析と空間検索","level":"1.3.1.7","depth":3,"path":"learning/ArcGISPro/7/7.md","ref":"./learning/ArcGISPro/7/7.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-sharing","-sharing-plus","toggle-chapters","creativecommons","favicon","github","github-buttons"],"root":".","styles":{"website":"styles/website.css"},"pluginsConfig":{"github":{"url":"https://github.com/yamauchi-inochu/homepage"},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"favicon":{"shortcut":"img/favicon.ico","bookmark":"img/favicon.ico","appleTouch":"img/apple-touch-icon.png","appleTouchMore":{"120x120":"img/favicon.ico","180x180":"img/favicon.ico"}},"github-buttons":{"buttons":[{"user":"yamauchi-inochu","repo":"homepage","type":"star","size":"small","count":true}]},"creativecommons":{},"sharing":{"qq":false,"all":["facebook","google"],"douban":false,"facebook":false,"weibo":false,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":true,"messenger":false,"line":false,"vk":false,"pocket":false,"google":false,"viber":false,"stumbleupon":false,"qzone":false,"linkedin":false},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"toggle-chapters":{}},"theme":"default","author":"H.Yamauchi","honkit":">= 4.0.4","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"The Yamauchi Lab","language":"ja","gitbook":"*"},"file":{"path":"learning/ArcGISPro/8/8.md","mtime":"2024-11-22T15:24:48.140Z","type":"markdown"},"gitbook":{"version":"4.0.8","time":"2025-06-05T08:16:39.075Z"},"basePath":"../../..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"ポイントデータの集計とテーブル結合","level":"1.3.1.8","depth":3,"next":{"title":"標高データの可視化と分析","level":"1.3.1.9","depth":3,"path":"learning/ArcGISPro/9/9.md","ref":"./learning/ArcGISPro/9/9.md","articles":[]},"previous":{"title":"領域分析と空間検索","level":"1.3.1.7","depth":3,"path":"learning/ArcGISPro/7/7.md","ref":"./learning/ArcGISPro/7/7.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-sharing","-sharing-plus","toggle-chapters","creativecommons","favicon","github","github-buttons"],"root":".","styles":{"website":"styles/website.css"},"pluginsConfig":{"github":{"url":"https://github.com/yamauchi-inochu/homepage"},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"favicon":{"shortcut":"img/favicon.ico","bookmark":"img/favicon.ico","appleTouch":"img/apple-touch-icon.png","appleTouchMore":{"120x120":"img/favicon.ico","180x180":"img/favicon.ico"}},"github-buttons":{"buttons":[{"user":"yamauchi-inochu","repo":"homepage","type":"star","size":"small","count":true}]},"creativecommons":{},"sharing":{"qq":false,"all":["facebook","google"],"douban":false,"facebook":false,"weibo":false,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":true,"messenger":false,"line":false,"vk":false,"pocket":false,"google":false,"viber":false,"stumbleupon":false,"qzone":false,"linkedin":false},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"toggle-chapters":{}},"theme":"default","author":"H.Yamauchi","honkit":">= 4.0.4","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"The Yamauchi Lab","language":"ja","gitbook":"*"},"file":{"path":"learning/ArcGISPro/8/8.md","mtime":"2025-06-12T07:28:25.420Z","type":"markdown"},"gitbook":{"version":"4.0.8","time":"2025-06-12T07:29:09.985Z"},"basePath":"../../..","book":{"language":""}});
         });
     </script>
 </div>
