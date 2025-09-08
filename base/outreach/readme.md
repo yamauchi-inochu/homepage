@@ -20,7 +20,11 @@
 ## 主なWeb記事
 山内が取材をうけたものまたは、関係している主なWeb記事
 
-- [中日新聞　被災地形 ３Ｄ化　金大など公開、研究や防災に活用](https://www.chunichi.co.jp/article/1109402)(2025)
+- [ITを駆使して、地理好きな人を増やしたい: GIS、VR、AIなどの技術を活かした新しい地理教育のあり方を探る](https://www.ritsumei.ac.jp/research/radiant/article/?id=227)（2025）
+
+- [The ARC Summer Newsletter (August 2025)](https://www.arc.ritsumei.ac.jp/e/news/pc/026071.html) （2025）
+
+- [中日新聞　被災地形 ３Ｄ化　金大など公開、研究や防災に活用](https://www.chunichi.co.jp/article/1109402) （2025）
 - [京都新聞　滋賀県東部の川沿いで伝統的な治水設備の痕跡発見　歴史に埋もれた構造物「猿尾」ってなんだ？](https://www.kyoto-np.co.jp/articles/-/1517744?utm_term=Autofeed&utm_medium=Social&utm_source=Twitter#Echobox=1752184644)（2025）
 - [立命館大学 NEWS & TOPICS：滋賀県東近江市で伝統的な治水施設「猿尾（さるお）」を再発見 －ドローン測量、歴史資料、インタビュー、フィールドワークの成果を統合－](https://www.ritsumei.ac.jp/news/detail/?id=4091)（2025）
 - [滋賀報知新聞　伝統的な治水施設「猿尾」](http://www.shigahochi.co.jp/info.php?type=article&id=A0043297)

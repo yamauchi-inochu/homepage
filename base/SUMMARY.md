@@ -1,5 +1,6 @@
 * [The Yamauchi Lab](./README.md)
 * [About](./about.md)
+* [Achievements](./achievements.md)
 * [Materials](./learning/README.md)
 	* [ArcGIS Pro](./learning/ArcGISPro/README.md)
 	 * [ArcGIS Proビギナーズマニュアル](./learning/ArcGISPro/1/1.md)
