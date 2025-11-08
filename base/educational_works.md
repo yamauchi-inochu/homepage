@@ -1,4 +1,4 @@
-# Works
+# Educational works
 以下は、山内が単独または、他の研究者と連携して整備した教材の一覧です。非公開および公開予定のものも含まれます。
 
 ## Educational materials for K-12 teachers

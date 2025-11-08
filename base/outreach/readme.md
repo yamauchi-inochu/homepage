@@ -20,10 +20,10 @@
 ## 主なWeb記事
 山内が取材をうけたものまたは、関係している主なWeb記事
 
-- [ITを駆使して、地理好きな人を増やしたい: GIS、VR、AIなどの技術を活かした新しい地理教育のあり方を探る](https://www.ritsumei.ac.jp/research/radiant/article/?id=227)（2025）
-
+- [ShiRUto 地理嫌いを克服する方法を専門家が解説　地理への理解が未来の価値を生む！](https://shiruto.jp/culture/6375/)（2025）
+- [滋賀報知新聞　江戸時代の治水施設「猿尾」を学ぶ](http://www.shigahochi.co.jp/info.php?type=article&id=A0044005)（2025）
+- [RADIANT ITを駆使して、地理好きな人を増やしたい: GIS、VR、AIなどの技術を活かした新しい地理教育のあり方を探る](https://www.ritsumei.ac.jp/research/radiant/article/?id=227)（2025）
 - [The ARC Summer Newsletter (August 2025)](https://www.arc.ritsumei.ac.jp/e/news/pc/026071.html) （2025）
-
 - [中日新聞　被災地形 ３Ｄ化　金大など公開、研究や防災に活用](https://www.chunichi.co.jp/article/1109402) （2025）
 - [京都新聞　滋賀県東部の川沿いで伝統的な治水設備の痕跡発見　歴史に埋もれた構造物「猿尾」ってなんだ？](https://www.kyoto-np.co.jp/articles/-/1517744?utm_term=Autofeed&utm_medium=Social&utm_source=Twitter#Echobox=1752184644)（2025）
 - [立命館大学 NEWS & TOPICS：滋賀県東近江市で伝統的な治水施設「猿尾（さるお）」を再発見 －ドローン測量、歴史資料、インタビュー、フィールドワークの成果を統合－](https://www.ritsumei.ac.jp/news/detail/?id=4091)（2025）
@@ -37,7 +37,6 @@
 ## 主な一般公開の取り組み・展示協力
 
 - 東近江市 近江商人博物館・中路融人記念館　[【企画展】猿尾　自然と生きる先人の知恵](https://e-omi-muse.com/omishounin/news_detail.html?id=848) (2025)
-
 - 滋賀県立琵琶湖博物館　[第33回企画展示 川を描く、川をつくる―古地図で昔の堤をさぐる― ](https://www.biwahaku.jp/event/2025/07/33.html) （2025）
 
 > その他は、[researchmap](https://researchmap.jp/hyamauchi)に記載

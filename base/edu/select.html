@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>kyodogawa</title>
+  <script src="https://aframe.io/releases/1.5.0/aframe.min.js"></script>
+  <style>
+    html { touch-action: manipulation; }
+
+    button {
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  user-select: none;
+}
+
+    .a-enter-vr-button,
+    .a-fullscreen-button {
+  display: none !important;
+    }
+
+    /* 下中央の操作ボタン */
+    #controls {
+      position: absolute;
+      bottom: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 100;
+      display: flex;
+      flex-wrap: nowrap;
+      justify-content: center;
+      gap: 5vw;
+    }
+    #controls button {
+      font-size: 3.5vw;
+      padding: 1.5vw 1.5vw;
+      border-radius: 0.25vw;
+      min-width: 1.5em;
+      min-height: 1.5em;
+      box-sizing: border-box;
+    }
+
+    /* 右上のボタン */
+    #topControls {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      z-index: 100;
+      display: flex;
+      flex-direction: column;
+      gap: 1vw;
+    }
+    #topControls button, #topControls select {
+      font-size: 3.5vw;
+      padding: 0.8vw 1.5vw;
+      border-radius: 0.25vw;
+    }
+    /* 左上のボタン */
+    #topLControls {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      z-index: 100;
+      display: flex;
+      flex-direction: column;
+      gap: 1vw;
+    }
+    #topLControls button, #topLControls select {
+      font-size: 3.5vw;
+      padding: 0.8vw 1.5vw;
+      border-radius: 0.25vw;
+    }
+  </style>
+</head>
+<body>
+
+<a-scene vr-mode-ui="enabled: false">
+  <a-sky id="sky" src="https://gis-oer.github.io/photos/si/img/si_kyodogawa.JPG"></a-sky>
+  <a-camera id="camera" look-controls="enabled: false" rotation="0 0 0"></a-camera>
+</a-scene>
+
+<!-- 下中央ボタン -->
+<div id="controls">
+  <button id="zoomin">+</button>
+  <button id="right">←</button>
+  <button id="up">↑</button>
+  <button id="down">↓</button>
+  <button id="left">→</button>
+  <button id="zoomout">−</button>
+</div>
+
+<!-- 右上ボタン＋プルダウン -->
+<div id="topControls">
+  <button id="reset">⟳</button>
+  <button id="map">Map</button>
+</div>
+
+<div id="topLControls">
+<select id="imageSelect">
+  <option value="https://gis-oer.github.io/photos/si/img/si_kyodogawa.JPG">問1</option>
+  <option value="https://gis-oer.github.io/photos/si/img/si_kokaigawa.JPG">問2</option>
+  <option value="https://gis-oer.github.io/photos/si/img/si_numata1.JPG">問3</option>
+  <option value="https://gis-oer.github.io/photos/si/img/si_kohama.JPG">問4</option>
+</select>
+</div>
+
+<script>
+  const camera = document.querySelector('#camera');
+  const sky = document.querySelector('#sky');
+  const mapButton = document.getElementById('map');
+  const select = document.getElementById('imageSelect');
+  let pitch = 0;
+  let yaw = 0;
+  let fov = 80;
+
+  // ---- 画像と地図URLの対応表 ----
+  const mapLinks = {
+    "https://gis-oer.github.io/photos/si/img/si_kyodogawa.JPG": "https://maps.gsi.go.jp/#16/35.643835/138.717695/",
+    "https://gis-oer.github.io/photos/si/img/si_kokaigawa.JPG": "https://maps.gsi.go.jp/#16/36.072587/140.006193/",
+    "https://gis-oer.github.io/photos/si/img/si_numata1.JPG": "https://maps.gsi.go.jp/#16/36.646030/139.072339/",
+    "https://gis-oer.github.io/photos/si/img/si_kohama.JPG": "https://maps.gsi.go.jp/#16/34.674139/131.728775/"
+  };
+
+  // ---- カメラ操作 ----
+  function updateCamera() {
+    camera.setAttribute('rotation', `${pitch} ${yaw} 0`);
+  }
+
+  document.getElementById('up').addEventListener('click', () => {
+    pitch = Math.min(pitch + 10, 90);
+    updateCamera();
+  });
+  document.getElementById('down').addEventListener('click', () => {
+    pitch = Math.max(pitch - 10, -90);
+    updateCamera();
+  });
+  document.getElementById('left').addEventListener('click', () => {
+    yaw -= 10;
+    updateCamera();
+  });
+  document.getElementById('right').addEventListener('click', () => {
+    yaw += 10;
+    updateCamera();
+  });
+
+  // ---- ズーム ----
+  document.getElementById('zoomin').addEventListener('click', () => {
+    fov = Math.max(10, fov - 5);
+    camera.setAttribute('camera', 'fov', fov);
+  });
+  document.getElementById('zoomout').addEventListener('click', () => {
+    fov = Math.min(100, fov + 5);
+    camera.setAttribute('camera', 'fov', fov);
+  });
+
+  // ---- リセット ----
+  document.getElementById('reset').addEventListener('click', () => {
+    pitch = 0;
+    yaw = 0;
+    updateCamera();
+  });
+
+  // ---- 問と地図 ----
+  mapButton.addEventListener('click', () => {
+    const currentImage = select.value;
+    const mapURL = mapLinks[currentImage];
+    if (mapURL) {
+      window.open(mapURL, '_blank');
+    } else {
+      alert("地図リンクなし。");
+    }
+  });
+
+  // ---- プルダウンで画像切替 ----
+  select.addEventListener('change', (e) => {
+    const img = e.target.value;
+    sky.setAttribute('src', img);
+  });
+</script>
+
+</body>
+</html>
