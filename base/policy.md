@@ -9,11 +9,11 @@
 　本規約において、「本サイト」とは、「山内啓之 / Hiroyuki YamauchiのWebページ」サイトを言います。「教材」とは、本サイトで公開されている教材に含まれるすべての文章、図、注記の説明文等のすべてを言います。「利用者」とは、本サイト及び教材を利用する者を言います。
 
 ## 3. 著作権等
-<span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">山内啓之 </span> 作『<span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">/ Hiroyuki YamauchiのWebページ</span>』は<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">クリエイティブ・コモンズ 表示 - 継承 4.0 国際 ライセンス</a>で提供されています。
+<span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">山内啓之 </span> 作『<span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">山内啓之 / Hiroyuki YamauchiのWebページ</span>』は<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">クリエイティブ・コモンズ 表示 - 非営利 - 継承 4.0 国際 ライセンス</a>で提供されています。
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="クリエイティブ・コモンズ・ライセンス" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a>
 
-**第三者の著作権**
+### 第三者の著作権
 　作成者は、教材に含まれるすべての権利を所有していません。本教材は、非営利および教育を目的としているため、第三者著作物を公正な利用（Fair use）として、著作者の許諾を得ず使用しています。そのため、利用者による教材の使用等に関して、第三者の著作権が侵害されないという保証は一切行いません。教材の使用等における第三者の著作権に関するリスクについては、利用者に帰属します。再利用の許可の判断と著作権者からの許可の取得は利用者の責任とします。
 
 ## 4. 利用規約の同意
@@ -30,7 +30,8 @@
 　利用者が利用される際は出典元を以下のように明記するようお願いします。
 出典：**© H. Yamauchi, CC BY-NC-SA 4.0**
 
-1. リンクについて
+### 1.リンクについて
 　「利用規約」を必ず参照していただくために、リンクは本サイトのトップページにお願いします。
 
-2. 本規約の改訂 本利用規約は、予告なく改訂することがあります。
+### 2.本規約の改訂
+ 本利用規約は、予告なく改訂することがあります。
