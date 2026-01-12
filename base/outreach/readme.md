@@ -18,8 +18,8 @@
 - [滋賀県東近江市で伝統的な治水施設「猿尾（さるお）」を再発見－ドローン測量、歴史資料、インタビュー、フィールドワークの成果を統合－](https://www.hyogo-u.ac.jp/assets/files/2025/06/20250606_pressrelease.pdf)（2025）
 
 ## 主なWeb記事
-山内が取材をうけたものまたは、関係している主なWeb記事
 
+- [「地形✕創作研究プロジェクト」が「国土交通大臣賞」（地理情報システム学会）を受賞](https://www.ritsumei.ac.jp/news/detail/?id=4268)（2025）
 - [ShiRUto 地理嫌いを克服する方法を専門家が解説　地理への理解が未来の価値を生む！](https://shiruto.jp/culture/6375/)（2025）
 - [滋賀報知新聞　江戸時代の治水施設「猿尾」を学ぶ](http://www.shigahochi.co.jp/info.php?type=article&id=A0044005)（2025）
 - [RADIANT ITを駆使して、地理好きな人を増やしたい: GIS、VR、AIなどの技術を活かした新しい地理教育のあり方を探る](https://www.ritsumei.ac.jp/research/radiant/article/?id=227)（2025）
@@ -33,15 +33,19 @@
 - [リセマム　高校生対象「地理情報システム・ドローンで地域分析」7-8月](https://resemom.jp/article/2022/06/15/67448.html)（2022）
 - [G空間情報センター　教育分野におけるGIS活用支援 ～GIS実習オープン教材～](https://front.geospatial.jp/showcase/education/)（2020）
 - [探検の殿堂（非）公式ブログ　『愛知川最新研究を触ってみよう！』開催のお知らせ](https://tanken.shiga-saku.net/search.php?blog_id=tanken&search=3D%E3%83%97%E3%83%AA%E3%83%B3%E3%83%88&p=3)（2019）
+- [教育分野におけるGIS活用支援 ～GIS実習オープン教材～](https://front.geospatial.jp/showcase/education/)
 
 ## 主な一般公開の取り組み・展示協力
 
+- [令和6年能登半島地震アーカイブ：震災の記憶 復興の記録」](https://noto-archive.pref.ishikawa.lg.jp/model/) 全天球パノラマ画像の公開（2025）
 - 東近江市 近江商人博物館・中路融人記念館　[【企画展】猿尾　自然と生きる先人の知恵](https://e-omi-muse.com/omishounin/news_detail.html?id=848) (2025)
 - 滋賀県立琵琶湖博物館　[第33回企画展示 川を描く、川をつくる―古地図で昔の堤をさぐる― ](https://www.biwahaku.jp/event/2025/07/33.html) （2025）
 
 > その他は、[researchmap](https://researchmap.jp/hyamauchi)に記載
 
-## 主な討論記事
-シンポジウムなどのパネルディスカッションに参加した際の記録
+## 主なレビュー・討論記事
+シンポジウムなどの講演・パネルディスカッションに参加した際の記録
 
-- [目代 邦康, 土井 彩華（2020）「地形学教育の新しい展開」に関する総合討論の記録](https://www.jstage.jst.go.jp/article/tjgu/41/4/41_387/_article/-char/ja)　地形, 41, 387-395.
+- 武内 樹治, 岩崎 亘典, 山内 啓之, 大矢 祐司, 宮本 利邦, 渡邉 敬逸 （2025）[シンポジウム「文化財情報とFOSS4Gの活用」開催報告](https://www.jstage.jst.go.jp/article/thagis/33/2/33_72/_article/-char/ja)　GIS-理論と応用，33(2)，72-80．
+- 築紫　葵（2025）[＜第146 回国際ARC セミナー(山内啓之氏)レビュー＞「ARC「リサーチ・メタバース」構想とその試行的実践　――地理教育でのメタバース利用を通じて」](https://www.arc.ritsumei.ac.jp/lib/app/newarc/j/report/books/art_research_vol26-2.html)　アート・リサーチ，26, 99-102.
+- 目代 邦康, 土井 彩華（2020）[「地形学教育の新しい展開」に関する総合討論の記録](https://www.jstage.jst.go.jp/article/tjgu/41/4/41_387/_article/-char/ja)　地形, 41, 387-395.

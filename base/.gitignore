@@ -40,4 +40,5 @@ base/learning/maps/img
 base/learning/maps/sheet
 base/learning/maps/pp
 base/learning/data
+base/learning/egis/eqgis/data/**
 /notes/img
