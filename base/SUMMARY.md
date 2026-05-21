@@ -1,7 +1,7 @@
 * [The Yamauchi Lab](./README.md)
 * [About](./about.md)
 * [Achievements](./achievements.md)
-* [Materials](./learning/README.md)
+* [Learning materials](./learning/README.md)
 	* [教育関係者向けGIS演習](./learning/egis/README.md)
 	 * [災害情報を活用した地図作成と分析](./learning/egis/eqgis/edu1.md)
 	 * [標高情報の可視化と地形の観察](./learning/egis/eqgis/edu2.md)

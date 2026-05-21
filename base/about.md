@@ -15,15 +15,20 @@
 	- Art Research Center, Ritsumeikan University / Research Associate Professor
 - 東京大学空間情報科学研究センター・客員研究員
 	-  Center for Spatial Information Science, the University of Tokyo / Visiting Researcher
+-  放送大学・客員准教授
+	- The Open University of Japan / Visiting Associate Professor
   
 ### Research and Education History
-- 2025年10月ー　兵庫教育大学学校教育学部（非常勤講師）
-- 2024年4月ー　佛教大学歴史学部（非常勤講師）
-- 2024年10月ー2026年3月　京都教育大学教育学部（非常勤講師）
-- 2023年4月ー2023年8月　東京大学空間情報科学研究センター（特任研究員）
-- 2023年4月ー2023年9月　筑波大学Bachelor’s Program in Global Issues（非常勤講師）
-- 2021年4月ー2023年9月　田園調布学園大学人間福祉学部（非常勤講師）
-- 2015年6月ー2020年3月　東京大学空間情報科学研究センター（特任研究員）
+- 2026年 4月ー現在　放送大学（客員准教授）
+- 2025年10月ー現在　兵庫教育大学学校教育学部（非常勤講師）
+- 2024年 4月ー現在　佛教大学歴史学部（非常勤講師）
+- 2023年 10月ー現在　東京大学空間情報科学研究センター（客員研究員）
+- 2023年 9月ー現在　立命館大学衣笠総合研究機構（特別招聘研究教員（准教授））
+- 2024年10月ー2026年 3月　京都教育大学教育学部（非常勤講師）
+- 2023年 4月ー2023年 8月　東京大学空間情報科学研究センター（特任研究員）
+- 2023年 4月ー2023年 9月　筑波大学Bachelor’s Program in Global Issues（非常勤講師）
+- 2021年 4月ー2023年 9月　田園調布学園大学人間福祉学部（非常勤講師）
+- 2015年 6月ー2020年 3月　東京大学空間情報科学研究センター（特任研究員）
 
 ## Degree
 - 博士（環境学）東京大学（2023年3月）/ Ph.D. in Environment Studies (The University of Tokyo)
