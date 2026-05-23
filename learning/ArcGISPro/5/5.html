@@ -1315,7 +1315,26 @@
 <h3 id="ポリゴンデータの作成">ポリゴンデータの作成</h3>
 <p>ラインデータを作成する要領で、火口のふちを何度もクリックしてなぞるようにポリゴンデータを作成する。Polygonを選択し、空のレイヤを作成する。最後の点で右クリックをするとダイアログが表示されるため、<code>Finish</code>をクリックする。背景地図は、<code>Map &gt; Base maps</code>から切り替えることができる。
 <img src="img/5-19.png" alt="img"></img></p>
-<p><strong>ここまでの内容を地図としてレイアウトし、画像を出力する。</strong></p>
+<h3 id="属性情報の編集">属性情報の編集</h3>
+<p>以下では、最初からあるフィールドに情報を追加する方法と、新規にフィールドを作成して情報を入力する方法を紹介する。</p>
+<p>対象とするレイヤの属性テーブルを開き、Idのフィールドに1から番号をふる。編集後に、以下の赤枠の<code>Save</code>をクリックする。
+<img src="img/5-20.png" alt="img"></img></p>
+<p>属性テーブルで<code>Add</code>をクリックするとフィールドの編集画面が立ち上がる。このとき、<code>Add</code>が押せない場合は、<code>Save</code>が完了しているかを確認する。<code>Field Name：Name</code>、<code>Data Type：Text</code>、<code>Length：20</code>として、<code>Save</code>をクリックする。タブを切り替え、新たなフィールドが追加されていることを確認する。
+<img src="img/5-21.png" alt="img"></img></p>
+<p>Idの追加と同じように情報を入力し、最後に<code>Save</code>をクリックする。
+<img src="img/5-22.png" alt="img"></img></p>
+<p>なお、<code>Data Type</code>は次のように入力したいデータによって変わる（以下は、ArcGIS フィールド データ タイプより引用）。</p>
+<ul>
+<li>Short - Short integer (16 ビット)</li>
+<li>Long - Long integer (32 ビット)</li>
+<li>Float - 単精度 (32 ビット) 浮動小数点数</li>
+<li>Double - 倍精度 (64 ビット) 浮動小数点数</li>
+<li>Text - 特定の長さの英数字のセット</li>
+<li>Date - 下記を参照</li>
+</ul>
+<blockquote>
+<p>ArcGIS フィールド データ タイプ　<a href="https://pro.arcgis.com/ja/pro-app/latest/help/data/geodatabases/overview/arcgis-field-data-types.htm" target="_blank">https://pro.arcgis.com/ja/pro-app/latest/help/data/geodatabases/overview/arcgis-field-data-types.htm</a></p>
+</blockquote>
 <p><a href="5.html#Menu">▲ Back to Menu</a></p>
 <h2 id="課題">課題</h2>
 <p>　この実習では、ラスタデータのクリップと新規ベクトルデータの作成を行います。完成例のような地図を作成してください。ポイントデータは完成例、不忍池のポリゴンやルートのラインは、地理院タイルの空中写真をトレースして作成してください。※完成例にある地名、標高点などデータのラベルは可能であればつけてください。等高線の間隔は5mまたは10mとする。</p>
@@ -1367,7 +1386,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"GISデータの作成","level":"1.4.2.5","depth":3,"next":{"title":"基本的な空間解析","level":"1.4.2.6","depth":3,"path":"learning/ArcGISPro/6/6.md","ref":"./learning/ArcGISPro/6/6.md","articles":[]},"previous":{"title":"ジオリファレンスとジオコーディング","level":"1.4.2.4","depth":3,"path":"learning/ArcGISPro/4/4.md","ref":"./learning/ArcGISPro/4/4.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-sharing","-sharing-plus","toggle-chapters","creativecommons","favicon","github","github-buttons"],"root":".","styles":{"website":"styles/website.css"},"pluginsConfig":{"github":{"url":"https://github.com/yamauchi-inochu/homepage"},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"favicon":{"shortcut":"img/favicon.ico","bookmark":"img/favicon.ico","appleTouch":"img/apple-touch-icon.png","appleTouchMore":{"120x120":"img/favicon.ico","180x180":"img/favicon.ico"}},"github-buttons":{"buttons":[{"user":"yamauchi-inochu","repo":"homepage","type":"star","size":"small","count":true}]},"creativecommons":{},"sharing":{"qq":false,"all":["facebook","google"],"douban":false,"facebook":false,"weibo":false,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":true,"messenger":false,"line":false,"vk":false,"pocket":false,"google":false,"viber":false,"stumbleupon":false,"qzone":false,"linkedin":false},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"toggle-chapters":{}},"theme":"default","author":"H.Yamauchi","honkit":">= 4.0.4","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"The Yamauchi Lab","language":"ja","gitbook":"*"},"file":{"path":"learning/ArcGISPro/5/5.md","mtime":"2026-05-21T14:00:51.594Z","type":"markdown"},"gitbook":{"version":"4.0.8","time":"2026-05-21T14:05:39.576Z"},"basePath":"../../..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"GISデータの作成","level":"1.4.2.5","depth":3,"next":{"title":"基本的な空間解析","level":"1.4.2.6","depth":3,"path":"learning/ArcGISPro/6/6.md","ref":"./learning/ArcGISPro/6/6.md","articles":[]},"previous":{"title":"ジオリファレンスとジオコーディング","level":"1.4.2.4","depth":3,"path":"learning/ArcGISPro/4/4.md","ref":"./learning/ArcGISPro/4/4.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-sharing","-sharing-plus","toggle-chapters","creativecommons","favicon","github","github-buttons"],"root":".","styles":{"website":"styles/website.css"},"pluginsConfig":{"github":{"url":"https://github.com/yamauchi-inochu/homepage"},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"favicon":{"shortcut":"img/favicon.ico","bookmark":"img/favicon.ico","appleTouch":"img/apple-touch-icon.png","appleTouchMore":{"120x120":"img/favicon.ico","180x180":"img/favicon.ico"}},"github-buttons":{"buttons":[{"user":"yamauchi-inochu","repo":"homepage","type":"star","size":"small","count":true}]},"creativecommons":{},"sharing":{"qq":false,"all":["facebook","google"],"douban":false,"facebook":false,"weibo":false,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":true,"messenger":false,"line":false,"vk":false,"pocket":false,"google":false,"viber":false,"stumbleupon":false,"qzone":false,"linkedin":false},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"toggle-chapters":{}},"theme":"default","author":"H.Yamauchi","honkit":">= 4.0.4","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"The Yamauchi Lab","language":"ja","gitbook":"*"},"file":{"path":"learning/ArcGISPro/5/5.md","mtime":"2026-05-23T08:59:18.201Z","type":"markdown"},"gitbook":{"version":"4.0.8","time":"2026-05-23T09:00:32.928Z"},"basePath":"../../..","book":{"language":""}});
         });
     </script>
 </div>
