@@ -1,6 +1,6 @@
 # Achievements
 
-### Peer-Reviewed Journals
+### Peer-Reviewed Journal Articles
 
 - [13] 小倉拓郎, **山内啓之**, 濵野 清, 𠮷水裕也, 小口 高（2025）[国立大学の教員養成課程における地理学関連科目カリキュラムの現状と教育支援の在り方](https://www.jstage.jst.go.jp/article/ejgeo/20/2/20_373/_article/-char/ja)．E-journal GEO 20(2) 373-382.
 
@@ -17,9 +17,14 @@
 - [5] **山内啓之**, 鶴岡謙一, 小倉拓郎, 田村裕彦, 早川裕弌, 飯塚浩太郎, 小口 高（2022）[三次元地理空間情報とVR技術を用いた遺構の散策アプリの試作と評価 －地理教育への応用に向けて－](https://www.jstage.jst.go.jp/article/ejgeo/17/1/17_169/_article/-char/ja/).　E-journal GEO 17(1) 169-179.
 - [4] Jiali Song, **Hiroyuki Yamauchi**, Takashi Oguchi, Takuro Ogura (2022) [Application of web hazard maps to high school education for disaster risk reduction](https://www.sciencedirect.com/science/article/abs/pii/S2212420922000851). 
 International Journal of Disaster Risk Reduction, 72.
-- [3]  Kotaro Iizuka, Takuro Ogura, Yuki Akiyama, **Hiroyuki Yamauchi**, Takeshi Hashimoto, Yudai Yamada (2021) [Improving the 3D model accuracy with a post-processing kinematic (PPK) method for UAS surveys](https://www.tandfonline.com/doi/abs/10.1080/10106049.2021.1882004). Geocarto International, 37(3) , 1-16.
+- [3]  Kotaro Iizuka, Takuro Ogura, Yuki Akiyama, **Hiroyuki Yamauchi**, Takeshi Hashimoto, Yudai Yamada (2022) [Improving the 3D model accuracy with a post-processing kinematic (PPK) method for UAS surveys](https://www.tandfonline.com/doi/abs/10.1080/10106049.2021.1882004). Geocarto International, 37(14), 4234-4254.
 - [2] **山内啓之**, 小口 高, 小倉拓郎（2020）[GISを用いた地形教育のためのオープン教材の試作と評価](https://www.jstage.jst.go.jp/article/tjgu/41/4/41_363/_article/-char/ja/).　地形, 41(4), 363-375.
 - [1] **山内啓之**, 小口 高, 早川裕弌, 瀬戸寿一 (2019) [GISの標準コアカリキュラムと知識体系を踏まえた実習用オープン教材の開発と評価](https://www.jstage.jst.go.jp/article/ejgeo/14/2/14_288/_article/-char/ja/).　E-journal GEO, 14(2), 288-295.
 
-### Others
+### Peer-Reviewed Conference Papers (Proceedings)
+
+- [2] **Hiroyuki Yamauchi**, Takashi Oguchi, Takuro Ogura, Yuriko Yazawa, Kotaro Iizuka（2026）[Implementation and evaluation of geography education using QGIS for Japanese high school students ](https://isprs-archives.copernicus.org/articles/L-4-W1-2026/361/2026/).　The International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences, L-4/W1-2026, 361-366.
+- [1] Kotaro Iizuka, **Hiroyuki Yamauchi**, Takuro Ogura (2025) [Avatar Movement as Learning Data: Quantifying Immersive Geography Fieldwork in the Metaverse ](https://researchrepository.ucd.ie/entities/publication/8d6f0a4c-638c-4aa0-8790-6489893d30d7). Proceedings of the 2nd Geogames Symposium: Connecting Communities Through Games and Play, 136-141.
+
+### Other works
 [researchmap](https://researchmap.jp/hyamauchi)に記載

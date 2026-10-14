@@ -2,7 +2,7 @@
 主要な講演・Web記事・展示・プレスリリースなどについてまとめています。
 
 ## 主な講演・特別授業
-
+- [兵庫教育大学教育実践学叢書第９巻「地形×創作」出版記念シンポジウム](https://www.hyogo-u.ac.jp/event/5311606.php)　(2026)
 - [令和7年度（2025年度）「びわ湖の日」連続講座　愛知川流域における「猿尾」の再発見とデジタル技術を活用したアウトリーチの実践](https://www.ritsumei.ac.jp/community_affiliations/renzokukouza/bkc/)　(2025)
 - [第3415回立命館土曜講座　VR・メタバースによる現実空間の3D保存と教育利用 （立命館大学）](https://www.ritsumei.ac.jp/doyo/essay/detail/?id=725)（2024）
 - [地理教育とアウトリーチでつなぐ地理学と社会（奈良大学地理学科）](https://www.nara-u.ac.jp/faculty/geography/news/375.html)（2024）
