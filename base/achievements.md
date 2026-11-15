@@ -2,7 +2,7 @@
 
 ### Peer-Reviewed Journal Articles
 
-- [14] Kotaro Iizuka, **Hiroyuki Yamauchi**, Takuro Ogura (2026) [Exploratory geoplay in metaverse fieldwork: Avatar movement as learning data for geographic understanding] (https://journals.sagepub.com/doi/10.1177/23998083261501338). Environment and Planning B: Urban Analytics and City Science.
+- [14] Kotaro Iizuka, **Hiroyuki Yamauchi**, Takuro Ogura (2026) [Exploratory geoplay in metaverse fieldwork: Avatar movement as learning data for geographic understanding](https://journals.sagepub.com/doi/10.1177/23998083261501338). Environment and Planning B: Urban Analytics and City Science.
 - [13] 小倉拓郎, **山内啓之**, 濵野 清, 𠮷水裕也, 小口 高（2025）[国立大学の教員養成課程における地理学関連科目カリキュラムの現状と教育支援の在り方](https://www.jstage.jst.go.jp/article/ejgeo/20/2/20_373/_article/-char/ja)．E-journal GEO 20(2) 373-382.
 - [12] **山内啓之**, 小倉拓郎, 芝田篤紀, 大井喜代（2025）大学生を対象とした地理学習の好嫌傾向の調査と分析.　新地理 73(2), 1-12.
 - [11] Takuro Ogura, **Hiroyuki Yamauchi**, Tatsuto Aoki, Nobuhisa Matta, Kotaro Iizuka, Yoshiya Iwasa, Takayuki Takahashi, Kiyomi Hayashi, Tsuyoshi Hattanji, Takashi Oguchi (2025) [High-definition topographic archiving and educational applications in regions affected by the 2024 Noto Peninsula Earthquake.](https://www.jstage.jst.go.jp/article/jdr/20/4/20_401/_article/-char/ja) Journal of Disaster Research 20(4) 401-409.
